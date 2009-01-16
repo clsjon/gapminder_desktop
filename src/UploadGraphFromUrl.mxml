@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns="http://ns.adobe.com/mxml/2009" layout="absolute" width="400" height="300">
+
+	<Script>
+		<![CDATA[
+			protected function uploadBtn_clickHandler(event:MouseEvent):void
+			{
+				
+			}
+		]]>
+	</Script>
+
+<Form>
+	<FormItem label="Enter URL graph">
+<TextArea id="URL" width="100%"/>	
+		
+	</FormItem>
+	<Button label="Add this graph to collection" id="uploadBtn" click="uploadBtn_clickHandler(event)"/>
+</Form>	
+</Window>

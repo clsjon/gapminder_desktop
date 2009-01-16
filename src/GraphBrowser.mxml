@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns="http://ns.adobe.com/mxml/2009" width="{Capabilities.screenResolutionX}" height="{Capabilities.screenResolutionY}">
+	<HTML id="graphBrowser" location="file:///Users/claes/Documents/Gumbo%20MAX%20Preview/Gapminder%20Local%20demo/bin-debug/assets/graphs/world/index.html" width="100%" height="100%"/>
+</Window>

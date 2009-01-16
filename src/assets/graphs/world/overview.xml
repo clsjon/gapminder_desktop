@@ -1,0 +1,476 @@
+<metadata>
+  <mapProperties imageFile="worldmap.jpg" timeDisplayX="0" timeDisplayY="0" scaleImage="true"/>
+  <collectionInfo>
+    <caption url="http://www.gapminder.org">Gapminder World</caption>
+  </collectionInfo>
+  <indicators>
+    <i id="pyj6tScZqmEeiMy8j86qDTg" displayName="Surface area (sq. km)" originalName="A country&apos;s total area, including areas under inland bodies of water and some coastal waterways."/>
+    <i id="pyj6tScZqmEc96gAEE60-Zg" displayName="Literacy rate, adult female (% of females ages 15 and above)" originalName="Adult literacy rate is the percentage of people ages 15 and above who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEd4fn4YYOvuOg" displayName="Literacy rate, adult male (% of males ages 15 and above)" originalName="Adult literacy rate is the percentage of people ages 15 and above who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEdrsBnj2ROXAg" displayName="Literacy rate, adult total (% of people ages 15 and above)" originalName="Adult literacy rate is the percentage of people ages 15 and above who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEcqpAT2g1neRA" displayName="Agricultural land (% of land area)" originalName="Agricultural land refers to the share of land area that is arable, under permanent crops, and under permanent pastures. Includes land under temporary crops, temporary meadows for mowing or for pasture, land under market or kitchen gardens, and land temporarily fallow. It excludes land under trees grown for wood or timber."/>
+    <i id="pyj6tScZqmEfFhcpJWYaKeg" displayName="Agriculture, contribution to economy (% of GDP)" originalName="Agriculture includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources."/>
+    <i id="pyj6tScZqmEf4whwGpQ86Tg" displayName="Aid received (US$ per person)" originalName="Aid received (Official development assistance per capita, US$)"/>
+    <i id="pyj6tScZqmEcl2xDWbuJ8fg" displayName="Population growth (annual %)" originalName="Annual de facto population growth rate."/>
+    <i id="phAwcNAVuyj3WKLh6zjDsBQ" displayName="Growth in income per person (% per year)" originalName="Annual growth in Gross Domestic Product per person (percent increase from one year to next). Note: this indicator is not necessarily fully consistent with the &quot;Income per person&quot; indicator since different sources have been used."/>
+    <i id="phAwcNAVuyj3fwfA8XA25Eg" displayName="Math achievement - 8th grade" originalName="Average score in the international TIMSS test for childeren in the 8th grade."/>
+    <i id="phAwcNAVuyj3Iw3kqbjJTZQ" displayName="Math achievement - 4th grade" originalName="Average score in the international TIMSS test for children in the 4th grade."/>
+    <i id="pyj6tScZqmEfdDYQh2VrzLw" displayName="Aviation (million kilometres flown)" originalName="Aviation (million kilometres flown)"/>
+    <i id="pyj6tScZqmEddELCfiks0AQ" displayName="Aviation (million passenger-kilometres)" originalName="Aviation (million passenger-kilometres)"/>
+    <i id="pyj6tScZqmEcZjkPuMgMITg" displayName="Aviation (million ton-kilometres)" originalName="Aviation (million ton-kilometres)"/>
+    <i id="pyj6tScZqmEdoP_gCwXhfKQ" displayName="Aviation (thousands of passengers carried)" originalName="Aviation (thousands of passengers carried)"/>
+    <i id="pyj6tScZqmEd2yhQYTc_pcw" displayName="Children out of school, primary" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Children out of school are the number of primary-school-age children not enrolled in primary or secondary school."/>
+    <i id="pyj6tScZqmEdKD0KpXRsKXA" displayName="Children out of school, primary, female" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Children out of school are the number of primary-school-age children not enrolled in primary or secondary school."/>
+    <i id="pyj6tScZqmEekvNtZ5tPiMw" displayName="Children out of school, primary, male" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Children out of school are the number of primary-school-age children not enrolled in primary or secondary school."/>
+    <i id="pyj6tScZqmEf2pHmQH7j9RA" displayName="Expenditure per student, primary (% of GDP per capita)" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Public expenditure per student is the public current spending on education divided by the total number of students by level, as a percentage of GDP per capita. Public expenditure (current and capital) includes government spending on educational institutions (both public and private), education administration as well as subsidies for private entities (students/households and other privates entities)."/>
+    <i id="pyj6tScZqmEds0k7ca-EkPA" displayName="Expenditure per student, secondary (% of GDP per capita)" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Public expenditure per student is the public current spending on education divided by the total number of students by level, as a percentage of GDP per capita. Public expenditure (current and capital) includes government spending on educational institutions (both public and private), education administration as well as subsidies for private entities (students/households and other privates entities)."/>
+    <i id="pyj6tScZqmEdfFewo295tVA" displayName="Expenditure per student, tertiary (% of GDP per capita)" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Public expenditure per student is the public current spending on education divided by the total number of students by level, as a percentage of GDP per capita. Public expenditure (current and capital) includes government spending on educational institutions (both public and private), education administration as well as subsidies for private entities (students/households and other privates entities)."/>
+    <i id="pyj6tScZqmEcWM3hb0x-BZA" displayName="Ratio of girls to boys in primary and secondary education (%)" originalName="Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Ratio of girls to boys in primary and secondary education is the percentage of girls to boys enrolled at primary and secondary levels in public and private schools."/>
+    <i id="pyj6tScZqmEcuy6dYkzGhfw" displayName="Broadband subscribers" originalName="Broadband subscribers are the total number of broadband subscribers with a digital subscriber line, cable modem, or other high-speed technologies, although definitions may vary from country to country."/>
+    <i id="pyj6tScZqmEdNT3FpGAmGGQ" displayName="Broadband subscribers (per 100 people)" originalName="Broadband subscribers are the total number of broadband subscribers with a digital subscriber line, cable modem, or other high-speed technologies, although definitions may vary from country to country."/>
+    <i id="pyj6tScZqmEfAzk6a6Ej8Rw" displayName="Capital formation (constant prices)" originalName="Capital formation (constant prices)"/>
+    <i id="phAwcNAVuyj1gkNuUEXOGag" displayName="CO2 emissions (tonnes per person)" originalName="Carbon dioxide emissions from the burning of fossil fuels (metric tonnes of CO2 per capita)."/>
+    <i id="pyj6tScZqmEejn8qHNmm4LQ" displayName="Central bank discount rate (annual %)" originalName="Central bank discount rate (annual %)"/>
+    <i id="pyj6tScZqmEegScWyR-yhVQ" displayName="Immunization, measles (% of children ages 12-23 months)" originalName="Child immunization measures the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receiving one dose of vaccine. World Health Organization and United Nations Children&apos;s Fund."/>
+    <i id="pyj6tScZqmEenS18Yjl_SOQ" displayName="Measles immunization (% of children under 1 year)" originalName="Children aged 1 year who have been injected with an antigen or serum containing specific antibodies against measles."/>
+    <i id="pyj6tScZqmEc1TmMiFdmOVg" displayName="Coal consumption" originalName="Coal consumption (millions of tonnes of oil equivalent)"/>
+    <i id="pyj6tScZqmEdkXNlyOm9fQA" displayName="Coal consumption per capita" originalName="Coal consumption per capita (Tonnes oil equivalent)"/>
+    <i id="pyj6tScZqmEdDid2ts7KvHg" displayName="Coal production" originalName="Coal production (millions of tonnes of oil equivalent)"/>
+    <i id="pyj6tScZqmEcqsjvVwK1iCQ" displayName="Coal production per person" originalName="Coal production per person (Tonnes oil equivalent)"/>
+    <i id="phAwcNAVuyj1nMH7gMN83Dw" displayName="Primary school completion (% of boys)" originalName="Completion rate in primary schooling for boys (percent of boys)."/>
+    <i id="phAwcNAVuyj0uk0g3T4YLZA" displayName="Primary school completion (% of girls)" originalName="Completion rate in primary schooling for girls (percent of girls)."/>
+    <i id="pyj6tScZqmEeWlt4U9WfbBg" displayName="Health expenditure, public (% of GDP)" originalName="Consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds."/>
+    <i id="pyj6tScZqmEcJI3KBJnrlDQ" displayName="Health expenditure, public (% of total health expenditure)" originalName="Consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds. Total health expenditure is the sum of public and private health expenditure. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation."/>
+    <i id="pyj6tScZqmEdNbX4qj9QLTA" displayName="Hydroelectricity consumption" originalName="Consumption of hydroelectric energy (millions of tonnes of oil equivalent)"/>
+    <i id="pyj6tScZqmEfiy57wnt-tEA" displayName="Nuclear consumption" originalName="Consumption of nuclear energy (millions of tonnes of oil equivalent)"/>
+    <i id="pyj6tScZqmEewsQOoKrtYJQ" displayName="Contraceptive use (% of women ages 15-49)" originalName="Contraceptive prevalence rate is the percentage of women who are practicing, or whose sexual partners are practicing, any form of contraception. It is usually measured for married women ages 15-49 only."/>
+    <i id="pyj6tScZqmEeTIhjRrVQtQA" displayName="Arms exports (constant 1990 US$)" originalName="Data for some countries are based on partial or uncertain data or rough estimates. Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and ships designed for military use. Excluded are transfers of other military equipment such as small arms and light weapons, trucks, small artillery, ammunition, support equipment, technology transfers, and other services."/>
+    <i id="pyj6tScZqmEfnPl7VRfT9WA" displayName="Arms imports (constant 1990 US$)" originalName="Data for some countries are based on partial or uncertain data or rough estimates. Arms transfers cover the supply of military weapons through sales, aid, gifts, and those made through manufacturing licenses. Data cover major conventional weapons such as aircraft, armored vehicles, artillery, radar systems, missiles, and ships designed for military use. Excluded are transfers of other military equipment such as small arms and light weapons, trucks, small artillery, ammunition, support equipment, technology transfers, and other services."/>
+    <i id="phAwcNAVuyj18zSwx1s7-Kg" displayName="Military expenditure (% of GDP)" originalName="Data, from SIPRI, are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in defense projects; paramilitary forces, if these are judged to be trained and equipped for military operations; and military space activities."/>
+    <i id="phAwcNAVuyj0NpF2PTov2Cw" displayName="Infant mortality rate (per 1,000 births)" originalName="Deaths of children during first year of life (per 1000 live births)."/>
+    <i id="pyj6tScZqmEcKxvG4lnIreQ" displayName="Electric power consumption (kWh per capita)" originalName="Electric power consumption measures the production of power plants and combined heat and power plants less transmission, distribution, and transformation losses and own use by heat and power plants."/>
+    <i id="pyj6tScZqmEehRG-9mMHYdg" displayName="Electricity generation" originalName="Electricity Generation (terawatt-hours)"/>
+    <i id="pyj6tScZqmEeMtYNdMyLKOw" displayName="Electricity generation per person" originalName="Electricity generation per person (Kilowatt-hours)"/>
+    <i id="pyj6tScZqmEfxc4sYTadDfw" displayName="Energy use (kg of oil equivalent per capita)" originalName="Energy use refers to use of primary energy before transformation to other end-use fuels, which is equal to indigenous production plus imports and stock changes, minus exports and fuels supplied to ships and aircraft engaged in international transport."/>
+    <i id="pyj6tScZqmEdJwn1Wi__YEg" displayName="Exports of goods and services (% of GDP)" originalName="Exports of goods and services represent the value of all goods and other market services provided to the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude labor and property income (formerly called factor services) as well as transfer payments."/>
+    <i id="pyj6tScZqmEddLKU1fnfSSA" displayName="Exports unit value (index, 2000=100)" originalName="Exports unit value (index, 2000=100)"/>
+    <i id="pyj6tScZqmEdTiT0z23CoHg" displayName="External debt, total (% of GNI)" originalName="External debt, total (% of GNI)"/>
+    <i id="phAwcNAVuyj3yZD8W32UtKA" displayName="Female labour force (% of total)" originalName="Female labour force (% of total labour force)."/>
+    <i id="pyj6tScZqmEcfLoOcU6GAfg" displayName="Fixed line and mobile phone subscribers (per 100 people)" originalName="Fixes lines connect a customer&apos;s equipment to the public switched telephone network. Mobile phone subscribers refer to users of portable telephones subscribing to the telephone network using cellular technology."/>
+    <i id="pyj6tScZqmEc8dxBU9o6rRQ" displayName="Forest area (sq. km)" originalName="Forest area is land under natural or planted stands of trees, whether productive or not."/>
+    <i id="pyj6tScZqmEdz8B4njtoHPA" displayName="Pump price for gasoline (US$ per liter)" originalName="Fuel prices refer to the pump prices of the most widely sold grade of gasoline."/>
+    <i id="pyj6tScZqmEcjeKHnZq6RIg" displayName="Inequality index (Gini)" originalName="Gini index measures the extent to which the distribution of income (or, in some cases, consumption expenditure) among individuals or households within an economy deviates from a perfectly equal distribution. A Lorenz curve plots the cumulative percentages of total income received against the cumulative number of recipients, starting with the poorest individual or household. The Gini index measures the area between the Lorenz curve and a hypothetical line of absolute equality, expressed as a percentage of the maximum area under the line. Thus a Gini index of 0 represents perfect equality, while an index of 100 implies perfect inequality. World Bank staff estimates based on primary household survey data obtained from government statistical agencies and World Bank country departments."/>
+    <i id="pyj6tScZqmEcRux4N5nqCXA" displayName="High-technology exports (% of manufactured exports)" originalName="High-technology exports are products with high R&amp;D intensity, such as in aerospace, computers, pharmaceuticals, scientific instruments, and electrical machinery."/>
+    <i id="pyj6tScZqmEfOm8YCRzNxIA" displayName="Hydroelectricity consumption per person" originalName="Hydroelectricity consumption per person (Tonnes oil equivalent)"/>
+    <i id="pyj6tScZqmEfnbNaaWfq7VA" displayName="Imports of goods and services (% of GDP)" originalName="Imports of goods and services represent the value of all goods and other market services received from the rest of the world. They include the value of merchandise, freight, insurance, transport, travel, royalties, license fees, and other services, such as communication, construction, financial, information, business, personal, and government services. They exclude labor and property income (formerly called factor services) as well as transfer payments."/>
+    <i id="pyj6tScZqmEcL6zpB3Sj1Wg" displayName="Imports unit value (index, 2000=100)" originalName="Imports unit value (index, 2000=100)"/>
+    <i id="pyj6tScZqmEcXBFxQw8cFaw" displayName="Health expenditure, private (% of GDP)" originalName="Includes direct household (out-of-pocket) spending, private insurance, charitable donations, and direct service payments by private corporations."/>
+    <i id="pyj6tScZqmEcSensyr0F1Jg" displayName="Industry, contribution to economy (% of GDP)" originalName="Industry comprises value added in mining, manufacturing (also reported as a separate subgroup), construction, electricity, water, and gas. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources."/>
+    <i id="pyj6tScZqmEcaHt8Y6cxXQg" displayName="Inflation, GDP deflator (annual %)" originalName="Inflation as measured by the annual growth rate of the GDP implicit deflator shows the rate of price change in the economy as a whole. The GDP implicit deflator is the ratio of GDP in current local currency to GDP in constant local currency."/>
+    <i id="phAwcNAVuyj0xiDjWaypQTg" displayName="Internet users (per 100 people)" originalName="Internet users are people with access to the worldwide network."/>
+    <i id="pyj6tScZqmEfMkeuokDLVIQ" displayName="Market value of listed companies (% of GDP)" originalName="Market capitalization (also known as market value) is the share price times the number of shares outstanding. Listed domestic companies are the domestically incorporated companies listed on the country&apos;s stock exchanges at the end of the year. Listed companies does not include investment companies, mutual funds, or other collective investment vehicles."/>
+    <i id="pyj6tScZqmEdWs2MSVeXfHA" displayName="CO2 intensity of economic output (kg CO2 per 2005 PPP $ of GDP)" originalName="Measures the amount of CO2 (kg) emitted for every dollar of GDP (constant purchasing power parity-adjusted) produced."/>
+    <i id="phAwcNAVuyj2yo1IzJQmbZg" displayName="Medical Doctors (per 1,000 people)" originalName="Medical Doctors (physicians) working in any medical field per 1,000 people."/>
+    <i id="pyj6tScZqmEfTe7DyXibwKg" displayName="Merchandise trade (% of GDP)" originalName="Merchandise trade as a share of GDP is the sum of merchandise exports and imports divided by the value of GDP, all in current U. S. dollars."/>
+    <i id="phAwcNAVuyj05ZR69usyQIg" displayName="Mortality rate, under-5 (per 1,000)" originalName="Mortality rate, under-5 (per 1,000)"/>
+    <i id="pyj6tScZqmEd1R9UmohEIaA" displayName="Poverty headcount ratio at national poverty line (% of population)" originalName="National poverty rate is the percentage of the population living below the national poverty line. National estimates are based on population-weighted subgroup estimates from household surveys. World Bank staff estimates based on the World Bank&apos;s country poverty assessments."/>
+    <i id="pyj6tScZqmEcx9pD804Q0Aw" displayName="Natural gas consumption" originalName="Natural gas consumption (billion cubic metres)"/>
+    <i id="pyj6tScZqmEdyt6bmOho5bw" displayName="Natural gas consumption per person" originalName="Natural gas consumption per person (Cubic metres)"/>
+    <i id="pyj6tScZqmEfv2K6dZmskWg" displayName="Natural gas production" originalName="Natural gas production (billion cubic metres)"/>
+    <i id="pyj6tScZqmEf0IBo_AGrgKA" displayName="Natural gas production per person" originalName="Natural gas production per person (Cubic metres)"/>
+    <i id="pyj6tScZqmEfZd6DbNF1MKA" displayName="Natural gas proven reserves per person" originalName="Natural gas proven reserves per person (Thousand cubic metres)"/>
+    <i id="pyj6tScZqmEe5SueBIj6eSw" displayName="Net barter terms of trade (2000 = 100)" originalName="Net barter terms of trade is the percentage ratio of the export price index to the corresponding import price index measured relative to the base year 2000."/>
+    <i id="pyj6tScZqmEcWq0H_Dm5PKw" displayName="Foreign direct investment, net inflows (% of GDP)" originalName="Net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments, as a percentage of GDP."/>
+    <i id="pyj6tScZqmEePKWaa09igFA" displayName="Aid received, total (current US$)" originalName="Net official development assistance (ODA) consists of disbursements of loans made on concessional terms (net of repayments of principal) and grants by official agencies of the members of the Development Assistance Committee (DAC), by multilateral institutions, and by non-DAC countries to promote economic development and welfare in countries and territories in the DAC list of ODA recipients. It includes loans with a grant element of at least 25 percent (calculated at a rate of discount of 10 percent). Net official aid refers to aid flows (net of repayments) from official donors to countries and territories in part II of the DAC list of recipients: more advanced countries of Central and Eastern Europe, the countries of the former Soviet Union, and certain advanced developing countries and territories. Official aid is provided under terms and conditions similar to those for ODA. Part II of the DAC List was abolished in 2005. The collection of data on official aid and other resource flows to Part II countries ended with 2004 data."/>
+    <i id="pyj6tScZqmEeg6gK4ClH8VA" displayName="Aid given (ODA, US$ millions)" originalName="Net official development assistance given (ODA, US$ millions)"/>
+    <i id="pyj6tScZqmEfg2SqKchiLUA" displayName="Foreign direct investment, net outflows (% of GDP)" originalName="Net outflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments, as a percentage of GDP."/>
+    <i id="phAwcNAVuyj1jiMAkmq1iMg" displayName="Income per person (fixed PPP$) - revised" originalName="New version of Gross Domestic Product per capita by Purchasing Power Parities (in international dollars, fixed 2005 prices)."/>
+    <i id="pyj6tScZqmEeE-YIlchEpdg" displayName="Nuclear consumption per person" originalName="Nuclear consumption per person (Tonnes oil equivalent)"/>
+    <i id="phAwcNAVuyj29JRRuW4GRAQ" displayName="People living with HIV - test" originalName="Number of people living with HIV"/>
+    <i id="pyj6tScZqmEe1GaiYJX2qGA" displayName="People living with HIV" originalName="Number of people living with HIV/AIDS"/>
+    <i id="pyj6tScZqmEcm0fIa0IVtKw" displayName="Oil consumption" originalName="Oil consumption (thousands of barrels daily)"/>
+    <i id="pyj6tScZqmEfr_zKfD2RIcA" displayName="Oil consumption per person" originalName="Oil consumption per person (Barrels yearly)"/>
+    <i id="pyj6tScZqmEdNIa3ckVXaCQ" displayName="Oil production" originalName="Oil production (thousands of barrels daily)"/>
+    <i id="pyj6tScZqmEeUgUuvuJTONQ" displayName="Oil production per person" originalName="Oil production per person (Barrels yearly)"/>
+    <i id="pyj6tScZqmEfrI4YlDJDUag" displayName="Oil proven reserves per person" originalName="Oil proven reserves per person (Barrels)"/>
+    <i id="pyj6tScZqmEeJPSN615GHYA" displayName="Gross capital formation (% of GDP)" originalName="Outlays on additions to the fixed assets of the economy plus net changes in the level of inventories. Fixed assets include land improvements (fences, ditches, drains, and so on); plant, machinery, and equipment purchases; and the construction of roads, railways, and the like, including schools, offices, hospitals, private residential dwellings, and commercial and industrial buildings. Inventories are stocks of goods held by firms to meet temporary or unexpected fluctuations in production or sales, and &quot;work in progress&quot;."/>
+    <i id="p7mVTH_9OzWHQ2J6f54LXXA" displayName="Democracy score (Polity)" originalName="Overall polity score from the Polity IV dataset, calculated by subtracting an autocracy score from a democracy score. It is a summary measure of a country&apos;s democratic and free nature. -10 is the lowest value, 10 the highest."/>
+    <i id="pyj6tScZqmEd5FA9xlfO9eA" displayName="Patent applications (total)" originalName="Patents are documents issued by a government office that describe an invention and create a legal situation in which the patented invention can normally be exploited only by or with the authorization of the patent holder. The protection is generally limited to 20 years."/>
+    <i id="pyj6tScZqmEdMioz5VJKXHw" displayName="Patents granted (total)" originalName="Patents are documents issued by a government office that describe an invention and create a legal situation in which the patented invention can normally be exploited only by or with the authorization of the patent holder. The protection is generally limited to 20 years."/>
+    <i id="pyj6tScZqmEe371ZVZl73eA" displayName="Patents in force (total)" originalName="Patents are documents issued by a government office that describe an invention and create a legal situation in which the patented invention can normally be exploited only by or with the authorization of the patent holder. The protection is generally limited to 20 years."/>
+    <i id="phAwcNAVuyj2riC6OSlQHEA" displayName="Percent adults with HIV - test" originalName="Percent of people aged 15-49 with HIV, i.e. HIV-prevalence."/>
+    <i id="pyj6tScZqmEdIyrBS31XAaw" displayName="Income share held by lowest 20%" originalName="Percentage share of income or consumption is the share that accrues to subgroups of population indicated by deciles or quintiles. Percentage shares by quintile may not sum to 100 because of rounding."/>
+    <i id="pyj6tScZqmEdFW4nUY4gQdA" displayName="Personal computers (per 100 people)" originalName="Personal computers (per 100 people)"/>
+    <i id="pyj6tScZqmEfUXdC83YSzfw" displayName="Personal computers (total)" originalName="Personal computers (total)"/>
+    <i id="pyj6tScZqmEdwXv1tqzV4Xg" displayName="Population in urban agglomerations &gt; 1 million (% of total population)" originalName="Population in urban agglomerations &gt; 1 million (% of total population)"/>
+    <i id="pyj6tScZqmEeUceHo3wTOaQ" displayName="Present value of debt (% of GNI)" originalName="Present value of debt (% of GNI)"/>
+    <i id="pyj6tScZqmEdk2P92JFa3eg" displayName="Primary completion rate, total (% of relevant age group)" originalName="Primary completion rate is the percentage of students completing the last year of primary school. It is calculated by taking the total number of students in the last grade of primary school, minus the number of repeaters in that grade, divided by the total number of children of official graduation age."/>
+    <i id="pyj6tScZqmEeTCOezV8a3HA" displayName="Primary energy consumption" originalName="Primary energy consumption (million tonnes oil-equivalent)"/>
+    <i id="pyj6tScZqmEd1G8qI4GpZQg" displayName="Primary energy consumption per person" originalName="Primary energy consumption per person (Tonnes oil equivalent)"/>
+    <i id="pyj6tScZqmEc5qiv87tr3NA" displayName="Natural gas proved reserves" originalName="Proven reserves of natural gas (trillion cubic metres)"/>
+    <i id="pyj6tScZqmEfJfS1WYrLeBA" displayName="Oil proved reserves" originalName="Proven reserves of oil (thousand million barrels)"/>
+    <i id="pyj6tScZqmEd7K-YgYOkGFQ" displayName="Health expenditure, public (% of government expenditure)" originalName="Public health expenditure consists of recurrent and capital spending from government (central and local) budgets, external borrowings and grants (including donations from international agencies and nongovernmental organizations), and social (or compulsory) health insurance funds."/>
+    <i id="p8SIY47PNEw6vGCNzlYJ5eA" displayName="Data quality - Life expectancy" originalName="Rates the quality for each observation of &quot;Life expectancy at birth&quot;. The ratings are 5 (very good); 4 (good); 3 (fair); 2 (bad) and 1 (very bad). You can use this &quot;indicator&quot; together with total population to highlight the roughest observations."/>
+    <i id="phAwcNAVuyj1ONZlWMf9KQA" displayName="Data quality - Population" originalName="Rates the quality for each observation of &quot;Population, total&quot;. The ratings are 1 (very good); 2 (good); 3 (fair); 4 (bad) and 5 (very bad). You can use this &quot;indicator&quot; together with total population to highlight the roughest observations."/>
+    <i id="pyj6tScZqmEfmnNPCdRmQfw" displayName="Ratio of young literate females to males (% ages 15-24)" originalName="Ratio of young literate females to males is the percentage of females to males ages 15-24 who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEc3xNIyXiZ6EA" displayName="Consumer price index (2000=100)" originalName="Reflects the price to the average consumer of acquiring a basket of goods and services, relative to the price in 2000."/>
+    <i id="pyj6tScZqmEcGvVMuBRXqGQ" displayName="Roads, paved (% of total roads)" originalName="Roads, paved (% of total roads)"/>
+    <i id="pyj6tScZqmEc2Hr4fjvQ6ew" displayName="Services, contribution to economy (% of GDP)" originalName="Services include wholesale and retail trade (including hotels and restaurants), transport, and government, financial, professional, and personal services such as education, health care, and real estate services. Also included are imputed bank service charges, import duties, and any statistical discrepancies noted by national compilers as well as discrepancies arising from rescaling."/>
+    <i id="phAwcNAVuyj0uBndTxZAXNQ" displayName="SO2 emissions per capita (kg)" originalName="Sulfur dioxide emissions per capita. Associated with acid rain. (Kilograms of sulfur per person and year)."/>
+    <i id="pyj6tScZqmEdChOzYcy2fBA" displayName="Tax revenue (% of GDP)" originalName="Tax revenue refers to compulsory transfers to the central government for public purposes. Certain compulsory transfers such as fines, penalties, and most social security contributions are excluded. Refunds and corrections of erroneously collected tax revenue are treated as negative revenue."/>
+    <i id="pyj6tScZqmEdIphYUHxcdLg" displayName="Adolescent fertility rate (births per 1,000 women ages 15-19)" originalName="The number of births per 1,000 women ages 15-19."/>
+    <i id="pyj6tScZqmEcVezxiMlWaRw" displayName="Maternal mortality (per 100,000 live births)" originalName="The number of maternal deaths divided by the number of live births in a given year, multiplied by 100,000. Maternal death is defined as the death of a women while pregnant or within the 42 days after termination of that pregnancy, regardless of the length and site of the pregnancy, from a cause related to or aggravated by the pregnancy."/>
+    <i id="phAwcNAVuyj2ZMli4YTn2Ag" displayName="Cell phones (per 100 people)" originalName="The number of subscribers per 100 people to a service providing access to the telephone network using cellular technology."/>
+    <i id="pyj6tScZqmEcKuNdFCUo6TQ" displayName="Cell phones (total)" originalName="The number of subscribers to a service providing access to the telephone network using cellular technology."/>
+    <i id="phAwcNAVuyj2tPLxKvvnNPA" displayName="Life expectancy at birth (years)" originalName="The number of years a newborn child would live if current mortality patterns were to stay the same."/>
+    <i id="pyj6tScZqmEcEYRXHDvupJQ" displayName="Malnutrition, weight for age (% of children under 5)" originalName="The percentage of children under age 5 whose weight for age is more than two standard deviations below the median for the 2006 WHO international reference population."/>
+    <i id="pyj6tScZqmEcj4RtGpBvQIA" displayName="Malaria prevention, insecticide-treated bed nets usage (% of children under age five)" originalName="The percentage of children under age five sleeping under insecticide treated bednets."/>
+    <i id="pyj6tScZqmEfbM2H6Swn9YA" displayName="Malaria treatment (% of children under age five)" originalName="The percentage of children under age five who were ill with fever in the two weeks before the survey and recevied antimalarial drugs."/>
+    <i id="pyj6tScZqmEfKY9bk02DBYA" displayName="Births attended by skilled health staff (% of total)" originalName="The percentage of deliveries attended by personnel (including doctors, nurses and midwives) trained to give the necessary supervision, care, and advice to women during pregnancy, labor, and the postpartum period; to conduct deliveries on their own; and to care for newborns."/>
+    <i id="pyj6tScZqmEfbZyl0qjbiRQ" displayName="HIV infected (% of population ages 15-49)" originalName="The percentage of people ages 15-49 who are infected with HIV."/>
+    <i id="pyj6tScZqmEfLbPu48DrKfQ" displayName="Improved sanitation facilities, urban (% of urban population with access)" originalName="The percentage of the population with at least adequate access to excreta disposal facilities, such as a connection to a sewer or septic tank system, a pour-flush latrine, a simple or improved ventilated improved pit latrine, that can effectively prevent human, animal, and insect contact with excreta."/>
+    <i id="pyj6tScZqmEd98lRwrU3gIg" displayName="Improved water source (% of population with access)" originalName="The percentage of the population with reasonable access to an adequate amount of water from an improved source, such as a household connection, public standpipe, borehole, protected well or spring, and rainwater collection. Unimproved sources include vendors, tanker trucks, and unprotected wells and springs. Reasonable access is defined as the availability of at least 20 liters a person a day from a source within one kilometer of the dwelling."/>
+    <i id="phAwcNAVuyj2sdmdhX9zuKg" displayName="Sugar per person (g per day)" originalName="The quantity of food consumption of sugar and sweeteners (grams per person and day). NOTE: data for 2004 are based on a rough extrapolation by Gapminder."/>
+    <i id="pyj6tScZqmEd-30XcArAJHA" displayName="Debt servicing costs (% of exports and net income from abroad)" originalName="The sum of principal and interest paid in foreign currency, goods or services on long-term debt, interest paid on short-term debt and repayments to the International Monetary Fund, as a percentage of net exports and income from abroad."/>
+    <i id="phAwcNAVuyj3XYThRy0yJMA" displayName="Health expenditure, total (% of GDP)" originalName="The sum of public and private health expenditure as a percentage of GDP."/>
+    <i id="phAwcNAVuyj2biT80zgTsYQ" displayName="Children and elderly (per 100 adults)" originalName="The total dependency ratio is the ratio of the sum of the population aged 0-14 and 65+ to the population aged 15-64, multiplied by 100."/>
+    <i id="pyj6tScZqmEfN1BgU8h6vUg" displayName="Trade balance, goods and services (US$)" originalName="The value of exports of goods and services minus the value of imports of goods and services. Measured in US$."/>
+    <i id="phAwcNAVuyj0npaJxInyYDg" displayName="Old version of Income per person" originalName="The version of Income per person used before 22 december 2008. Gross Domestic Product per capita by Purchasing Power Parities (in international dollars, fixed 1990 prices)."/>
+    <i id="phAwcNAVuyj3Os9LVO_pRDA" displayName="Bad teeth per child (12 yr)" originalName="The weighted average of the number of Decayed, Missing or Filled teeth among the 12 years old in a country (DMFT). It is meant to reflect the prevalence of caries in a population."/>
+    <i id="phAwcNAVuyj2t4ep52YXjSg" displayName="Year categorization 1820-2010" originalName="This &quot;indicator&quot; simply duplicates the years between 1820 and 2010. Use it to color the bubbles (by selecting this indicator under &quot;color&quot; in the top right-hand corner of the graph). This is useful when enabling &quot;trails&quot; for several countries. Use this one for long time series."/>
+    <i id="phAwcNAVuyj02SA7cGjnRbA" displayName="Year categorization 1950-" originalName="This &quot;indicator&quot; simply duplicates the years between 1950 and 2008. Use it to color the bubbles (by selecting this indicator under &quot;color&quot; in the top right-hand corner of the graph). This is useful when enabling &quot;trails&quot; for several countries."/>
+    <i id="pyj6tScZqmEed4UamoiNCFA" displayName="Cumulative CO2 emissions (thousand metric tons)" originalName="Total CO2 emissions from fossil fuel for the period between 1750 and the relevant year."/>
+    <i id="pyj6tScZqmEfI4sLVvEQtHw" displayName="Total income (GDP, constant exchange rate US$)" originalName="Total GDP (constant exchange rate US$)"/>
+    <i id="phAwcNAVuyj1NHPC9MyZ9SQ" displayName="Total CO2 emissions (thousand tonnes)" originalName="Total carbon dioxide emissions from the burning of fossil fuels (thousand metric tonnes of CO2)."/>
+    <i id="pyj6tScZqmEdQY2PxSsxxJQ" displayName="External debt, total (DOD, current US$)" originalName="Total external debt is debt owed to nonresidents repayable in foreign currency, goods, or services. Total external debt is the sum of public, publicly guaranteed, and private nonguaranteed long-term debt, use of IMF credit, and short-term debt. Short-term debt includes all debt having an original maturity of one year or less and interest in arrears on long-term debt. Data are in current U. S. dollars. World Bank, Global Development Finance."/>
+    <i id="phAwcNAVuyj0TAlJeCEzcGQ" displayName="Children per woman (total fertility)" originalName="Total fertility rate. The number of children that would be born to each woman with prevailing age-specific fertility rates."/>
+    <i id="pyj6tScZqmEeL79qOoKtofQ" displayName="Health expenditure per capita (current US$)" originalName="Total health expenditure is the sum of public and private health expenditures as a ratio of total population. It covers the provision of health services (preventive and curative), family planning activities, nutrition activities, and emergency aid designated for health but does not include provision of water and sanitation. It is in current US dollars."/>
+    <i id="phAwcNAVuyj0XOoBL_n5tAQ" displayName="Population, total" originalName="Total population"/>
+    <i id="pyj6tScZqmEc-gDsD_GmHQg" displayName="Total reserves (% of external debt)" originalName="Total reserves (% of external debt)"/>
+    <i id="pyj6tScZqmEfGKHF93lwVNw" displayName="Annual freshwater withdrawals, total (% of internal resources)" originalName="Total water withdrawals, excluding evaporation losses from storage basins. Withdrawals also include water from desalination plants in countries where they are a significant source. Withdrawals can exceed 100 percent of total renewable resources due to extraction from nonrenewable aquifers, desalination plants or because of water reuse. Data are for the most recent year available for 1987-2002."/>
+    <i id="pyj6tScZqmEdfXahiCHkPfA" displayName="Tuberculosis death rate (per 100,000)" originalName="Tuberculosis death rate (per 100,000 people)"/>
+    <i id="pyj6tScZqmEfH89V6UQhpZA" displayName="Urban population" originalName="Urban population is the midyear population of areas defined as urban in each country and reported to the United Nations."/>
+    <i id="phAwcNAVuyj0-LE4StzCsEw" displayName="Urban population (% of total)" originalName="Urban population is the midyear population of areas defined as urban in each country and reported to the United Nations."/>
+    <i id="pyj6tScZqmEcRJEN8MyV3PQ" displayName="Urban population growth (annual %)" originalName="Urban population is the midyear population of areas defined as urban in each country and reported to the United Nations."/>
+    <i id="pyj6tScZqmEf96wv_abR0OA" displayName="Literacy rate, youth female (% of females ages 15-24)" originalName="Youth literacy rate is the percentage of people ages 15-24 who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEe7OxrqKcSWfw" displayName="Literacy rate, youth male (% of males ages 15-24)" originalName="Youth literacy rate is the percentage of people ages 15-24 who can, with understanding, read and write a short, simple statement on their everyday life."/>
+    <i id="pyj6tScZqmEepmgV0TLjBag" displayName="Literacy rate, youth total (% of people ages 15-24)" originalName="Youth literacy rate is the percentage of people ages 15-24 who can, with understanding, read and write a short, simple statement on their everyday life."/>
+  </indicators>
+  <areas>
+    <a id="i0" n="Abkhazia"/>
+    <a id="i1" n="Afghanistan"/>
+    <a id="i2" n="Akrotiri and Dhekelia"/>
+    <a id="i3" n="Albania"/>
+    <a id="i4" n="Algeria"/>
+    <a id="i262" n="America"/>
+    <a id="i5" n="American Samoa"/>
+    <a id="i6" n="Andorra"/>
+    <a id="i7" n="Angola"/>
+    <a id="i8" n="Anguilla"/>
+    <a id="i9" n="Antigua and Barbuda"/>
+    <a id="i10" n="Argentina"/>
+    <a id="i11" n="Armenia"/>
+    <a id="i12" n="Aruba"/>
+    <a id="i13" n="Australia"/>
+    <a id="i14" n="Austria"/>
+    <a id="i15" n="Azerbaijan"/>
+    <a id="i16" n="Bahamas"/>
+    <a id="i17" n="Bahrain"/>
+    <a id="i18" n="Bangladesh"/>
+    <a id="i19" n="Barbados"/>
+    <a id="i20" n="Belarus"/>
+    <a id="i21" n="Belgium"/>
+    <a id="i22" n="Belize"/>
+    <a id="i23" n="Benin"/>
+    <a id="i24" n="Bermuda"/>
+    <a id="i25" n="Bhutan"/>
+    <a id="i26" n="Bolivia"/>
+    <a id="i27" n="Bosnia and Herzegovina"/>
+    <a id="i28" n="Botswana"/>
+    <a id="i29" n="Brazil"/>
+    <a id="i30" n="British Virgin Islands"/>
+    <a id="i31" n="Brunei"/>
+    <a id="i32" n="Bulgaria"/>
+    <a id="i33" n="Burkina Faso"/>
+    <a id="i34" n="Burundi"/>
+    <a id="i35" n="Cambodia"/>
+    <a id="i36" n="Cameroon"/>
+    <a id="i37" n="Canada"/>
+    <a id="i38" n="Cape Verde"/>
+    <a id="i39" n="Cayman Islands"/>
+    <a id="i40" n="Central African Republic"/>
+    <a id="i41" n="Chad"/>
+    <a id="i42" n="Channel Islands"/>
+    <a id="i43" n="Chile"/>
+    <a id="i44" n="China"/>
+    <a id="i45" n="Christmas Island"/>
+    <a id="i46" n="Cocos Island"/>
+    <a id="i47" n="Colombia"/>
+    <a id="i48" n="Comoros"/>
+    <a id="i49" n="Congo, Dem. Rep."/>
+    <a id="i50" n="Congo, Rep."/>
+    <a id="i51" n="Cook Is"/>
+    <a id="i52" n="Costa Rica"/>
+    <a id="i53" n="Cote d&apos;Ivoire"/>
+    <a id="i54" n="Croatia"/>
+    <a id="i55" n="Cuba"/>
+    <a id="i56" n="Cyprus"/>
+    <a id="i57" n="Czech Republic"/>
+    <a id="i58" n="Czechoslovakia"/>
+    <a id="i59" n="Denmark"/>
+    <a id="i60" n="Djibouti"/>
+    <a id="i61" n="Dominica"/>
+    <a id="i62" n="Dominican Republic"/>
+    <a id="i264" n="East Asia &amp; Pacific"/>
+    <a id="i63" n="East Germany"/>
+    <a id="i64" n="Ecuador"/>
+    <a id="i65" n="Egypt"/>
+    <a id="i66" n="El Salvador"/>
+    <a id="i67" n="Equatorial Guinea"/>
+    <a id="i68" n="Eritrea"/>
+    <a id="i69" n="Eritrea and Ethiopia"/>
+    <a id="i70" n="Estonia"/>
+    <a id="i71" n="Ethiopia"/>
+    <a id="i263" n="Europe &amp; Central Asia"/>
+    <a id="i72" n="Faeroe Islands"/>
+    <a id="i73" n="Falkland Is (Malvinas)"/>
+    <a id="i74" n="Fiji"/>
+    <a id="i75" n="Finland"/>
+    <a id="i76" n="France"/>
+    <a id="i77" n="French Guiana"/>
+    <a id="i78" n="French Polynesia"/>
+    <a id="i79" n="Gabon"/>
+    <a id="i80" n="Gambia"/>
+    <a id="i81" n="Georgia"/>
+    <a id="i82" n="Germany"/>
+    <a id="i83" n="Ghana"/>
+    <a id="i84" n="Gibraltar"/>
+    <a id="i85" n="Greece"/>
+    <a id="i86" n="Greenland"/>
+    <a id="i87" n="Grenada"/>
+    <a id="i88" n="Guadeloupe"/>
+    <a id="i89" n="Guam"/>
+    <a id="i90" n="Guatemala"/>
+    <a id="i91" n="Guernsey"/>
+    <a id="i92" n="Guinea"/>
+    <a id="i93" n="Guinea-Bissau"/>
+    <a id="i94" n="Guyana"/>
+    <a id="i95" n="Haiti"/>
+    <a id="i269" n="High income OECD"/>
+    <a id="i268" n="High income nonOECD"/>
+    <a id="i96" n="Holy See"/>
+    <a id="i97" n="Honduras"/>
+    <a id="i98" n="Hong Kong, China"/>
+    <a id="i99" n="Hungary"/>
+    <a id="i100" n="Iceland"/>
+    <a id="i101" n="India"/>
+    <a id="i102" n="Indonesia"/>
+    <a id="i103" n="Iran"/>
+    <a id="i104" n="Iraq"/>
+    <a id="i105" n="Ireland"/>
+    <a id="i106" n="Isle of Man"/>
+    <a id="i107" n="Israel"/>
+    <a id="i108" n="Italy"/>
+    <a id="i109" n="Jamaica"/>
+    <a id="i110" n="Japan"/>
+    <a id="i111" n="Jersey"/>
+    <a id="i112" n="Jordan"/>
+    <a id="i113" n="Kazakhstan"/>
+    <a id="i114" n="Kenya"/>
+    <a id="i115" n="Kiribati"/>
+    <a id="i118" n="Kosovo"/>
+    <a id="i119" n="Kuwait"/>
+    <a id="i120" n="Kyrgyz Republic"/>
+    <a id="i121" n="Lao"/>
+    <a id="i122" n="Latvia"/>
+    <a id="i123" n="Lebanon"/>
+    <a id="i124" n="Lesotho"/>
+    <a id="i125" n="Liberia"/>
+    <a id="i126" n="Libya"/>
+    <a id="i127" n="Liechtenstein"/>
+    <a id="i128" n="Lithuania"/>
+    <a id="i265" n="Low income"/>
+    <a id="i266" n="Lower middle income"/>
+    <a id="i129" n="Luxembourg"/>
+    <a id="i130" n="Macao, China"/>
+    <a id="i131" n="Macedonia, FYR"/>
+    <a id="i132" n="Madagascar"/>
+    <a id="i133" n="Malawi"/>
+    <a id="i134" n="Malaysia"/>
+    <a id="i135" n="Maldives"/>
+    <a id="i136" n="Mali"/>
+    <a id="i137" n="Malta"/>
+    <a id="i138" n="Marshall Islands"/>
+    <a id="i139" n="Martinique"/>
+    <a id="i140" n="Mauritania"/>
+    <a id="i141" n="Mauritius"/>
+    <a id="i142" n="Mayotte"/>
+    <a id="i143" n="Mexico"/>
+    <a id="i144" n="Micronesia, Fed. Sts."/>
+    <a id="i261" n="Middle East &amp; North Africa"/>
+    <a id="i145" n="Moldova"/>
+    <a id="i146" n="Monaco"/>
+    <a id="i147" n="Mongolia"/>
+    <a id="i148" n="Montenegro"/>
+    <a id="i149" n="Montserrat"/>
+    <a id="i150" n="Morocco"/>
+    <a id="i151" n="Mozambique"/>
+    <a id="i152" n="Myanmar"/>
+    <a id="i153" n="Namibia"/>
+    <a id="i154" n="Nauru"/>
+    <a id="i155" n="Nepal"/>
+    <a id="i156" n="Netherlands"/>
+    <a id="i157" n="Netherlands Antilles"/>
+    <a id="i158" n="New Caledonia"/>
+    <a id="i159" n="New Zealand"/>
+    <a id="i160" n="Ngorno-Karabakh"/>
+    <a id="i161" n="Nicaragua"/>
+    <a id="i162" n="Niger"/>
+    <a id="i163" n="Nigeria"/>
+    <a id="i164" n="Niue"/>
+    <a id="i165" n="Norfolk Island"/>
+    <a id="i116" n="North Korea"/>
+    <a id="i251" n="North Yemen (former)"/>
+    <a id="i166" n="Northern Cyprus"/>
+    <a id="i167" n="Northern Mariana Islands"/>
+    <a id="i168" n="Norway"/>
+    <a id="i169" n="Oman"/>
+    <a id="i170" n="Pakistan"/>
+    <a id="i171" n="Palau"/>
+    <a id="i172" n="Panama"/>
+    <a id="i173" n="Papua New Guinea"/>
+    <a id="i174" n="Paraguay"/>
+    <a id="i175" n="Peru"/>
+    <a id="i176" n="Philippines"/>
+    <a id="i177" n="Pitcairn"/>
+    <a id="i178" n="Poland"/>
+    <a id="i179" n="Portugal"/>
+    <a id="i180" n="Puerto Rico"/>
+    <a id="i181" n="Qatar"/>
+    <a id="i182" n="Reunion"/>
+    <a id="i183" n="Romania"/>
+    <a id="i184" n="Russia"/>
+    <a id="i185" n="Rwanda"/>
+    <a id="i193" n="Samoa"/>
+    <a id="i194" n="San Marino"/>
+    <a id="i195" n="Sao Tome and Principe"/>
+    <a id="i196" n="Saudi Arabia"/>
+    <a id="i197" n="Senegal"/>
+    <a id="i198" n="Serbia"/>
+    <a id="i199" n="Serbia and Montenegro"/>
+    <a id="i200" n="Serbia excluding Kosovo"/>
+    <a id="i201" n="Seychelles"/>
+    <a id="i202" n="Sierra Leone"/>
+    <a id="i203" n="Singapore"/>
+    <a id="i204" n="Slovak Republic"/>
+    <a id="i205" n="Slovenia"/>
+    <a id="i206" n="Solomon Islands"/>
+    <a id="i207" n="Somalia"/>
+    <a id="i208" n="Somaliland"/>
+    <a id="i209" n="South Africa"/>
+    <a id="i260" n="South Asia"/>
+    <a id="i117" n="South Korea"/>
+    <a id="i210" n="South Ossetia"/>
+    <a id="i252" n="South Yemen (former)"/>
+    <a id="i211" n="Spain"/>
+    <a id="i212" n="Sri Lanka"/>
+    <a id="i186" n="St. Barthélemy"/>
+    <a id="i187" n="St. Helena"/>
+    <a id="i188" n="St. Kitts and Nevis"/>
+    <a id="i189" n="St. Lucia"/>
+    <a id="i190" n="St. Martin"/>
+    <a id="i191" n="St. Vincent and the Grenadines"/>
+    <a id="i192" n="St.-Pierre-et-Miquelon"/>
+    <a id="i259" n="Sub-Saharan Africa"/>
+    <a id="i213" n="Sudan"/>
+    <a id="i214" n="Suriname"/>
+    <a id="i215" n="Svalbard"/>
+    <a id="i216" n="Swaziland"/>
+    <a id="i217" n="Sweden"/>
+    <a id="i218" n="Switzerland"/>
+    <a id="i219" n="Syria"/>
+    <a id="i220" n="Taiwan"/>
+    <a id="i221" n="Tajikistan"/>
+    <a id="i222" n="Tanzania"/>
+    <a id="i223" n="Thailand"/>
+    <a id="i224" n="Timor-Leste"/>
+    <a id="i225" n="Togo"/>
+    <a id="i226" n="Tokelau"/>
+    <a id="i227" n="Tonga"/>
+    <a id="i228" n="Transnistria"/>
+    <a id="i229" n="Trinidad and Tobago"/>
+    <a id="i230" n="Tunisia"/>
+    <a id="i231" n="Turkey"/>
+    <a id="i232" n="Turkmenistan"/>
+    <a id="i233" n="Turks and Caicos Islands"/>
+    <a id="i234" n="Tuvalu"/>
+    <a id="i241" n="USSR"/>
+    <a id="i235" n="Uganda"/>
+    <a id="i236" n="Ukraine"/>
+    <a id="i237" n="United Arab Emirates"/>
+    <a id="i238" n="United Kingdom"/>
+    <a id="i258" n="United Korea (former)"/>
+    <a id="i239" n="United States"/>
+    <a id="i267" n="Upper middle income"/>
+    <a id="i240" n="Uruguay"/>
+    <a id="i242" n="Uzbekistan"/>
+    <a id="i244" n="Vanuatu"/>
+    <a id="i245" n="Venezuela"/>
+    <a id="i249" n="Vietnam"/>
+    <a id="i250" n="Virgin Islands (U.S.)"/>
+    <a id="i243" n="Wallis et Futuna"/>
+    <a id="i246" n="West Bank and Gaza"/>
+    <a id="i247" n="West Germany"/>
+    <a id="i248" n="Western Sahara"/>
+    <a id="i253" n="Yemen"/>
+    <a id="i254" n="Yugoslavia"/>
+    <a id="i255" n="Zambia"/>
+    <a id="i256" n="Zimbabwe"/>
+    <a id="i257" n="Åland"/>
+  </areas>
+  <areaCategorization id="CATID0" n="Geographic regions" a="Regions of the world" sourceName="Gapminder Geographic Regions" providerUrl="http://spreadsheets.google.com/pub?key=phT4mwjvEuGBtdf1ZeO7_PQ&amp;gid=1" dataCollectionUrl="http://spreadsheets.google.com/pub?key=pk7kRzzfckbzz4AmH_e3DNA">
+    <c id="i259" areas="i7,i23,i28,i33,i34,i36,i38,i40,i41,i48,i49,i50,i53,i67,i68,i69,i71,i79,i80,i83,i92,i93,i114,i124,i125,i132,i133,i136,i140,i141,i142,i151,i153,i162,i163,i182,i185,i187,i195,i197,i201,i202,i207,i208,i209,i213,i216,i222,i225,i235,i255,i256"/>
+    <c id="i260" areas="i1,i18,i25,i101,i135,i155,i170,i212"/>
+    <c id="i261" areas="i4,i17,i60,i65,i103,i104,i107,i112,i119,i123,i126,i137,i150,i169,i181,i196,i219,i230,i237,i246,i253,i251,i252,i248"/>
+    <c id="i262" areas="i8,i9,i10,i12,i16,i19,i22,i24,i26,i29,i30,i37,i39,i43,i47,i52,i55,i61,i62,i64,i66,i73,i77,i87,i88,i90,i94,i95,i97,i109,i139,i143,i149,i157,i161,i172,i174,i175,i180,i186,i190,i192,i188,i189,i191,i214,i229,i233,i239,i240,i245,i250"/>
+    <c id="i263" areas="i0,i2,i3,i6,i11,i14,i15,i20,i21,i27,i32,i42,i54,i56,i57,i58,i59,i63,i70,i72,i75,i76,i81,i82,i84,i85,i86,i91,i96,i99,i100,i105,i106,i108,i111,i113,i118,i120,i122,i127,i128,i129,i131,i145,i146,i148,i156,i160,i166,i168,i178,i179,i183,i184,i194,i198,i199,i200,i204,i205,i210,i211,i215,i217,i218,i221,i228,i231,i232,i236,i238,i241,i242,i254,i257,i247"/>
+    <c id="i264" areas="i5,i13,i31,i35,i44,i45,i46,i51,i74,i78,i89,i98,i102,i110,i115,i116,i117,i121,i130,i134,i138,i144,i147,i152,i154,i158,i159,i164,i165,i167,i171,i173,i176,i177,i193,i203,i206,i220,i223,i224,i226,i227,i234,i243,i249,i244,i258"/>
+  </areaCategorization>
+  <areaCategorization id="CATID1" n="Income groups" a="How rich are you?" sourceName="World Bank" providerUrl="http://www.worldbank.org/data/countryclass/classgroups.htm" dataCollectionUrl="http://spreadsheets.google.com/pub?key=pk7kRzzfckbzz4AmH_e3DNA">
+    <c id="i265" areas="i1,i7,i18,i23,i25,i33,i34,i35,i36,i40,i41,i48,i49,i50,i53,i67,i68,i69,i71,i80,i83,i92,i93,i95,i101,i114,i116,i120,i121,i124,i125,i132,i133,i136,i140,i145,i147,i151,i152,i155,i161,i162,i163,i170,i173,i185,i195,i197,i202,i206,i207,i208,i213,i221,i222,i224,i225,i235,i242,i245,i253,i255,i256"/>
+    <c id="i266" areas="i3,i4,i11,i15,i20,i26,i27,i29,i32,i38,i44,i47,i55,i60,i62,i64,i65,i66,i74,i81,i90,i94,i97,i102,i103,i104,i109,i112,i113,i115,i131,i135,i138,i144,i150,i153,i174,i175,i176,i183,i184,i193,i199,i209,i212,i214,i216,i219,i223,i227,i230,i231,i232,i236,i243,i249"/>
+    <c id="i267" areas="i5,i9,i10,i19,i22,i28,i43,i52,i54,i57,i61,i70,i79,i87,i99,i122,i123,i126,i128,i134,i141,i142,i143,i154,i167,i169,i171,i172,i178,i196,i201,i204,i188,i189,i191,i229,i234,i240,i244"/>
+    <c id="i268" areas="i6,i12,i16,i17,i24,i31,i39,i42,i56,i72,i78,i86,i89,i98,i106,i107,i119,i127,i130,i137,i146,i157,i158,i180,i181,i194,i203,i205,i237,i246"/>
+    <c id="i269" areas="i13,i14,i21,i37,i59,i75,i76,i77,i82,i84,i85,i88,i91,i100,i105,i108,i110,i111,i117,i129,i139,i156,i159,i168,i179,i182,i211,i217,i218,i238,i239,i257"/>
+  </areaCategorization>
+  <indicatorCategorization indicators="phAwcNAVuyj1jiMAkmq1iMg,phAwcNAVuyj0NpF2PTov2Cw,phAwcNAVuyj0TAlJeCEzcGQ,phAwcNAVuyj2tPLxKvvnNPA,phAwcNAVuyj1gkNuUEXOGag">
+    <c n="Environment" id="Environment" indicators="phAwcNAVuyj1NHPC9MyZ9SQ,phAwcNAVuyj0uBndTxZAXNQ,pyj6tScZqmEdWs2MSVeXfHA,pyj6tScZqmEfGKHF93lwVNw">
+      <c n="More" id="More" indicators="pyj6tScZqmEed4UamoiNCFA"/>
+    </c>
+    <c n="Economy" id="Economy" indicators="phAwcNAVuyj3yZD8W32UtKA,phAwcNAVuyj3WKLh6zjDsBQ,pyj6tScZqmEfAzk6a6Ej8Rw,pyj6tScZqmEc3xNIyXiZ6EA,pyj6tScZqmEd-30XcArAJHA,pyj6tScZqmEejn8qHNmm4LQ,pyj6tScZqmEcaHt8Y6cxXQg,phAwcNAVuyj18zSwx1s7-Kg,pyj6tScZqmEfFhcpJWYaKeg,pyj6tScZqmEfI4sLVvEQtHw,pyj6tScZqmEcSensyr0F1Jg,pyj6tScZqmEc2Hr4fjvQ6ew,pyj6tScZqmEdQY2PxSsxxJQ,pyj6tScZqmEeJPSN615GHYA,pyj6tScZqmEfMkeuokDLVIQ,pyj6tScZqmEdChOzYcy2fBA">
+      <c n="More" id="More" indicators="pyj6tScZqmEdTiT0z23CoHg,pyj6tScZqmEeUceHo3wTOaQ,pyj6tScZqmEc-gDsD_GmHQg"/>
+      <c n="Consumption" id="Consumption" indicators="phAwcNAVuyj2sdmdhX9zuKg"/>
+    </c>
+    <c n="Education" id="Education" indicators="phAwcNAVuyj0uk0g3T4YLZA,phAwcNAVuyj1nMH7gMN83Dw,pyj6tScZqmEd2yhQYTc_pcw,pyj6tScZqmEdKD0KpXRsKXA,pyj6tScZqmEekvNtZ5tPiMw,pyj6tScZqmEf2pHmQH7j9RA,pyj6tScZqmEds0k7ca-EkPA,pyj6tScZqmEdfFewo295tVA,pyj6tScZqmEdk2P92JFa3eg,pyj6tScZqmEcWM3hb0x-BZA,pyj6tScZqmEc96gAEE60-Zg,pyj6tScZqmEd4fn4YYOvuOg,pyj6tScZqmEdrsBnj2ROXAg,pyj6tScZqmEf96wv_abR0OA,pyj6tScZqmEe7OxrqKcSWfw,pyj6tScZqmEepmgV0TLjBag,pyj6tScZqmEfmnNPCdRmQfw">
+      <c n="Achievement" id="Achievement" indicators="phAwcNAVuyj3Iw3kqbjJTZQ,phAwcNAVuyj3fwfA8XA25Eg"/>
+    </c>
+    <c n="Health" id="Health" indicators="phAwcNAVuyj2yo1IzJQmbZg,pyj6tScZqmEenS18Yjl_SOQ,pyj6tScZqmEcEYRXHDvupJQ,pyj6tScZqmEeL79qOoKtofQ,pyj6tScZqmEegScWyR-yhVQ,pyj6tScZqmEcXBFxQw8cFaw,pyj6tScZqmEfbZyl0qjbiRQ,pyj6tScZqmEeWlt4U9WfbBg,pyj6tScZqmEd7K-YgYOkGFQ,pyj6tScZqmEcJI3KBJnrlDQ,phAwcNAVuyj3XYThRy0yJMA,pyj6tScZqmEcj4RtGpBvQIA,pyj6tScZqmEfbM2H6Swn9YA,pyj6tScZqmEdfXahiCHkPfA,phAwcNAVuyj3Os9LVO_pRDA">
+      <c n="More" id="More" indicators="pyj6tScZqmEe1GaiYJX2qGA"/>
+      <c n="Test" id="Test" indicators="phAwcNAVuyj29JRRuW4GRAQ,phAwcNAVuyj2riC6OSlQHEA"/>
+    </c>
+    <c n="Geography and population" id="Geography and population" indicators="phAwcNAVuyj2biT80zgTsYQ,pyj6tScZqmEcqpAT2g1neRA,pyj6tScZqmEc8dxBU9o6rRQ,pyj6tScZqmEeiMy8j86qDTg,phAwcNAVuyj0XOoBL_n5tAQ,pyj6tScZqmEcGvVMuBRXqGQ,pyj6tScZqmEdwXv1tqzV4Xg,pyj6tScZqmEfH89V6UQhpZA,phAwcNAVuyj0-LE4StzCsEw,pyj6tScZqmEcRJEN8MyV3PQ"/>
+    <c n="Births and deaths" id="Births and deaths" indicators="pyj6tScZqmEfKY9bk02DBYA,pyj6tScZqmEcl2xDWbuJ8fg,pyj6tScZqmEdIphYUHxcdLg,pyj6tScZqmEewsQOoKrtYJQ,pyj6tScZqmEcVezxiMlWaRw,phAwcNAVuyj05ZR69usyQIg"/>
+    <c n="Energy" id="Energy" indicators="pyj6tScZqmEcKxvG4lnIreQ,pyj6tScZqmEfxc4sYTadDfw,pyj6tScZqmEdz8B4njtoHPA,pyj6tScZqmEcm0fIa0IVtKw,pyj6tScZqmEdNIa3ckVXaCQ,pyj6tScZqmEfJfS1WYrLeBA">
+      <c n="More" id="More" indicators="pyj6tScZqmEc1TmMiFdmOVg,pyj6tScZqmEdDid2ts7KvHg,pyj6tScZqmEehRG-9mMHYdg,pyj6tScZqmEdNbX4qj9QLTA,pyj6tScZqmEcx9pD804Q0Aw,pyj6tScZqmEfv2K6dZmskWg,pyj6tScZqmEc5qiv87tr3NA,pyj6tScZqmEfiy57wnt-tEA,pyj6tScZqmEeTCOezV8a3HA,pyj6tScZqmEfrI4YlDJDUag,pyj6tScZqmEfOm8YCRzNxIA,pyj6tScZqmEf0IBo_AGrgKA,pyj6tScZqmEeE-YIlchEpdg,pyj6tScZqmEdyt6bmOho5bw,pyj6tScZqmEdkXNlyOm9fQA,pyj6tScZqmEeMtYNdMyLKOw,pyj6tScZqmEeUgUuvuJTONQ,pyj6tScZqmEcqsjvVwK1iCQ,pyj6tScZqmEd1G8qI4GpZQg,pyj6tScZqmEfZd6DbNF1MKA,pyj6tScZqmEfr_zKfD2RIcA"/>
+    </c>
+    <c n="Technology and infrastructure" id="Technology and infrastructure" indicators="pyj6tScZqmEfLbPu48DrKfQ,pyj6tScZqmEd98lRwrU3gIg,pyj6tScZqmEcuy6dYkzGhfw,pyj6tScZqmEdNT3FpGAmGGQ,pyj6tScZqmEcKuNdFCUo6TQ,phAwcNAVuyj2ZMli4YTn2Ag,pyj6tScZqmEfdDYQh2VrzLw,pyj6tScZqmEddELCfiks0AQ,pyj6tScZqmEdoP_gCwXhfKQ,pyj6tScZqmEcZjkPuMgMITg,pyj6tScZqmEcfLoOcU6GAfg,phAwcNAVuyj0xiDjWaypQTg,pyj6tScZqmEd5FA9xlfO9eA,pyj6tScZqmEdMioz5VJKXHw,pyj6tScZqmEe371ZVZl73eA,pyj6tScZqmEfUXdC83YSzfw,pyj6tScZqmEdFW4nUY4gQdA"/>
+    <c n="Poverty and Inequality" id="Poverty and Inequality" indicators="pyj6tScZqmEcjeKHnZq6RIg,pyj6tScZqmEd1R9UmohEIaA,pyj6tScZqmEdIyrBS31XAaw"/>
+    <c n="Trade, aid and investment" id="Trade, aid and investment" indicators="pyj6tScZqmEeTIhjRrVQtQA,pyj6tScZqmEfnPl7VRfT9WA,pyj6tScZqmEfN1BgU8h6vUg,pyj6tScZqmEcWq0H_Dm5PKw,pyj6tScZqmEfg2SqKchiLUA,pyj6tScZqmEddLKU1fnfSSA,pyj6tScZqmEcL6zpB3Sj1Wg,pyj6tScZqmEf4whwGpQ86Tg,pyj6tScZqmEcRux4N5nqCXA,pyj6tScZqmEfTe7DyXibwKg,pyj6tScZqmEe5SueBIj6eSw,pyj6tScZqmEeg6gK4ClH8VA,pyj6tScZqmEdJwn1Wi__YEg,pyj6tScZqmEfnbNaaWfq7VA,pyj6tScZqmEePKWaa09igFA"/>
+    <c n="For advanced users" id="For advanced users">
+      <c n="Years (use as color)" id="Years (use as color)" indicators="phAwcNAVuyj02SA7cGjnRbA,phAwcNAVuyj2t4ep52YXjSg"/>
+      <c n="Data quality (use as color)" id="Data quality (use as color)" indicators="phAwcNAVuyj1ONZlWMf9KQA,p8SIY47PNEw6vGCNzlYJ5eA"/>
+      <c n="Alternative data" id="Alternative data" indicators="phAwcNAVuyj0npaJxInyYDg"/>
+      <c n="Democracy indicators (use as color)" id="Democracy indicators (use as color)" indicators="p7mVTH_9OzWHQ2J6f54LXXA"/>
+    </c>
+  </indicatorCategorization>
+</metadata>

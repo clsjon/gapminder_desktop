@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Canvas xmlns="http://www.adobe.com/2006/mxml" width="400" height="300">
+<Form>
+<FormItem label = "URL of graph to download">
+	
+<TextInput id="downloadUrlTextInput" width="100%"/>
+<Button id="downloadButton" label="Download"/>
+	
+</FormItem>	
+
+</Form>
+<RegExpValidator 
+</Canvas>

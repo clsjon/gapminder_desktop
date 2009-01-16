@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:display="flash.display.*" 
+	xmlns:events="flash.events.*" applicationComplete="init()" width="700" height="500">
+<mx:Script>
+	<![CDATA[
+		import mx.events.ListEvent;
+		import mx.events.ItemClickEvent;
+	
+	
+		[Bindable]
+		[Embed(source="assets/icons/world.png")]
+		public var world:Class;
+		
+		private var initialWidth:Number;
+		private var initialHeight:Number;
+		private var initialX:Number;
+		private var initialY:Number;
+		
+		[Bindable]
+		[Embed(source="assets/icons/fourbig.png")]
+		public var fourbig:Class;
+		
+		private function init():void
+		{
+			//stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+		}
+		
+	private function graphListItemClickHandler(event:ListEvent):void
+	{
+		var graph:GraphBrowser;
+		graph = new GraphBrowser();
+		graph.open();
+		graph.nativeWindow.x = 0;
+		graph.nativeWindow.y = 0;
+
+	}
+
+		protected function openNew_clickHandler(event:MouseEvent):void
+		{
+			var uploadWindow:UploadGraphFromUrl;
+			uploadWindow = new UploadGraphFromUrl;
+			uploadWindow.open();
+		}
+
+	]]>
+</mx:Script>
+<mx:VBox id="mainBox" width="100%" height="100%">
+	
+	<mx:TileList id="graphList" maxColumns="4" width ="700" itemClick="graphListItemClickHandler(event)">
+		<mx:dataProvider>
+			<mx:Array>
+				<mx:Object label="Gapminder World" icon="{world}" url="http://ss/"/>
+				<mx:Object label="Gapminder Four Big" icon="{fourbig}"/>
+			</mx:Array>
+		</mx:dataProvider>
+	</mx:TileList>
+	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph"/>
+</mx:VBox>
+</mx:WindowedApplication>

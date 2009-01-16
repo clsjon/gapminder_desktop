@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:display="flash.display.*" xmlns:events="flash.events.*" creationComplete="init()">
+<mx:Script>
+	<![CDATA[
+		import flash.display.Loader;
+		[Bindable]
+		[Embed(source="assets/icons/world.png")]
+		public var world:Class;
+		
+		[Bindable]
+		[Embed(source="assets/icons/fourbig.png")]
+		public var fourbig:Class;
+		
+		private function init():void
+		{
+		}
+		
+		private function fullScreenHandler(event:MouseEvent):void {
+			currentState="Fullscreen";
+			stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+			//graphList.visible = false;
+			//fullScreenButton.visible = false;
+		}
+		private function creationCompleteHandler():void {
+			trace(trendalyzer.loaderContext.securityDomain);
+		}
+	]]>
+</mx:Script>
+<mx:states>
+	<mx:State name="Fullscreen">
+		<mx:RemoveChild target="{graphList}"/>
+		<mx:RemoveChild target="{fullScreenButton}"/>
+		
+	</mx:State>
+</mx:states>
+<mx:HBox width="100%" height="100%">
+	
+	<mx:TileList id="graphList" maxColumns="1" width="110">
+		<mx:dataProvider>
+			<mx:Array>
+				<mx:Object label="Gapminder World" icon="{world}"/>
+				<mx:Object label="Gapminder Four Big" icon="{fourbig}"/>
+			</mx:Array>
+		</mx:dataProvider>
+	</mx:TileList>
+
+		<mx:SWFLoader id="trendalyzer" source="assets/graphs/world/trendalyzer.swf"  frameConstructed="creationCompleteHandler()" creationComplete="creationCompleteHandler()"/>
+</mx:HBox>
+<mx:Button id="fullScreenButton" label="Full Screen" click="fullScreenHandler(event)"/>
+</mx:WindowedApplication>
