@@ -14,17 +14,19 @@
 		[Embed(source="assets/icons/world.png")]
 		public var world:Class;
 		
+		[Bindable]
+		[Embed(source="assets/icons/fourbig.png")]
+		public var fourbig:Class;
+		
+		
 		private var initialWidth:Number;
 		private var initialHeight:Number;
 		private var initialX:Number;
 		private var initialY:Number;
 		
-		[Bindable]
-		[Embed(source="assets/icons/fourbig.png")]
 		
 		private var updater:ApplicationUpdaterUI = new ApplicationUpdaterUI();
 		
-		public var fourbig:Class;
 		
 		private function init():void
 		{
