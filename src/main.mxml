@@ -3,6 +3,9 @@
 	xmlns:events="flash.events.*" applicationComplete="init()" width="700" height="500">
 <mx:Script>
 	<![CDATA[
+		import air.update.events.UpdateEvent;
+		import flash.filesystem.File;
+		import air.update.ApplicationUpdaterUI;
 		import mx.events.ListEvent;
 		import mx.events.ItemClickEvent;
 	
@@ -18,13 +21,22 @@
 		
 		[Bindable]
 		[Embed(source="assets/icons/fourbig.png")]
+		
+		private var updater:ApplicationUpdaterUI = new ApplicationUpdaterUI();
+		
 		public var fourbig:Class;
 		
 		private function init():void
 		{
 			//stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+			updater.configurationFile= new File("app:/config/updaterConfig.xml");
+			updater.addEventListener(UpdateEvent.INITIALIZED,updaterInitialized);
+			updater.initialize();
 		}
 		
+		private function updaterInitialized(event:UpdateEvent):void {
+			
+		}
 	private function graphListItemClickHandler(event:ListEvent):void
 	{
 		var graph:GraphBrowser;
@@ -55,5 +67,9 @@
 		</mx:dataProvider>
 	</mx:TileList>
 	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph"/>
+</mx:VBox>
+<mx:VBox>
+	<mx:Label id="currentVersion"/>
+	<mx:Label id="availableVersion"/>
 </mx:VBox>
 </mx:WindowedApplication>

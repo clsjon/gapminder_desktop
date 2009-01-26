@@ -1,3 +1,0 @@
-<indicator id="pyj6tScZqmEfdDYQh2VrzLw" closestAboveZero="0.0" closestBelowZero="0.0" min="1.7976931348623157E308" max="-1.7976931348623157E308" firstTime="2147483647" lastTime="-2147483648" scale="lin" dataCollectionUrl="http://spreadsheets.google.com/pub?key=pyj6tScZqmEfdDYQh2VrzLw" providerUrl="http://data.un.org" providerSourceName="UN Statistics Division">
-  <data/>
-</indicator>
