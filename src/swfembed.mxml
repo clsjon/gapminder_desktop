@@ -21,9 +21,7 @@
 			//graphList.visible = false;
 			//fullScreenButton.visible = false;
 		}
-		private function creationCompleteHandler():void {
-			trace(trendalyzer.loaderContext.securityDomain);
-		}
+		
 	]]>
 </mx:Script>
 <mx:states>
@@ -44,7 +42,7 @@
 		</mx:dataProvider>
 	</mx:TileList>
 
-		<mx:SWFLoader id="trendalyzer" source="assets/graphs/world/trendalyzer.swf"  frameConstructed="creationCompleteHandler()" creationComplete="creationCompleteHandler()"/>
+	<!--	<mx:SWFLoader id="trendalyzer" source="assets/graphs/world/trendalyzer.swf"  frameConstructed="creationCompleteHandler()" creationComplete="creationCompleteHandler()"/>-->
 </mx:HBox>
 <mx:Button id="fullScreenButton" label="Full Screen" click="fullScreenHandler(event)"/>
 </mx:WindowedApplication>

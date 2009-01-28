@@ -14,7 +14,7 @@
 -->
 
 	<!-- The application identifier string, unique to this application. Required. -->
-	<id>org.gapminder.gapdesktop</id>
+	<id>org.gapminder.desktop</id>
 
 	<!-- Used as the filename for the application. Required. -->
 	<filename>Gapminder Desktop</filename>
@@ -24,7 +24,7 @@
 	<name>Gapminder Desktop</name>
 
 	<!-- An application version designator (such as "v1", "2.5", or "Alpha 1"). Required. -->
-	<version>1.0</version>
+	<version>0.4</version>
 
 	<!-- Description, displayed in the AIR application installer.
 	     May have multiple values for each language. See samples or xsd schema file. Optional. -->
@@ -43,7 +43,7 @@
 		<!-- <title></title> -->
 
 		<!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->
-		<!-- <systemChrome></systemChrome> -->
+		<!-- <systemChrome>none</systemChrome> -->
 
 		<!-- Whether the window is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
 		<!-- <transparent></transparent> -->
@@ -101,7 +101,7 @@
 	
 	<!-- Whether the application can be launched when the user clicks a link in a web browser.
 	Optional. Default false. -->
-	<!-- <allowBrowserInvocation></allowBrowserInvocation> -->
+	<!-- <allowBrowserInvocation>true</allowBrowserInvocation> -->
 
 	<!-- Listing of file types for which the application can register. Optional. -->
 	<!-- <fileTypes> -->

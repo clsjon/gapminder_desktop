@@ -1,1 +1,3 @@
 bin-debug/*
+*.air
+*.swc

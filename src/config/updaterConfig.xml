@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?> 
    <configuration xmlns="http://ns.adobe.com/air/framework/update/configuration/1.0" >
-     <url>app:/server/update.xml</url>
-     <delay>1</delay>
+     <url>http://www.gapminder.org/desktop/update.xml</url>
      <defaultUI>
         <dialog name="checkForUpdate" visible="true" />
-         <dialog name="downloadUpdate" visible="false" />
-         <dialog name="downloadProgress" visible="true" />
-         <dialog name="installUpdate" visible="true" />    
+        <dialog name="downloadUpdate" visible="true" />
+        <dialog name="downloadProgress" visible="true" />
+        <dialog name="installUpdate" visible="true" />    
      </defaultUI>
   </configuration>
