@@ -24,7 +24,7 @@
 	<name>Gapminder Desktop</name>
 
 	<!-- An application version designator (such as "v1", "2.5", or "Alpha 1"). Required. -->
-	<version>0.4</version>
+	<version>0.4.1</version>
 
 	<!-- Description, displayed in the AIR application installer.
 	     May have multiple values for each language. See samples or xsd schema file. Optional. -->
@@ -43,7 +43,7 @@
 		<!-- <title></title> -->
 
 		<!-- The type of system chrome to use (either "standard" or "none"). Optional. Default standard. -->
-		<!-- <systemChrome>none</systemChrome> -->
+		<!-- <systemChrome>standard</systemChrome> -->
 
 		<!-- Whether the window is transparent. Only applicable when systemChrome is none. Optional. Default false. -->
 		<!-- <transparent></transparent> -->
@@ -54,11 +54,11 @@
 		<!-- Whether the user can minimize the window. Optional. Default true. -->
 		<!-- <minimizable></minimizable> -->
 
-		<!-- Whether the user can maximize the window. Optional. Default true. -->
-		<!-- <maximizable></maximizable> -->
+		<!-- Whether the  can maximize the window. Optional. Default true. -->
+		<!-- <maximizable>false</maximizable> -->
 
 		<!-- Whether the user can resize the window. Optional. Default true. -->
-		<!-- <resizable></resizable> -->
+		<!-- <resizable>false</resizable> -->
 
 		<!-- The window's initial width. Optional. -->
 		<!-- <width></width> -->

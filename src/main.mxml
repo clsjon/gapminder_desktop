@@ -3,6 +3,10 @@
 	xmlns:events="flash.events.*" layout="absolute" creationComplete="init()" width="700" height="500">
 <mx:Script>
 	<![CDATA[
+		import mx.core.Application;
+		import mx.rpc.events.FaultEvent;
+		import mx.rpc.events.ResultEvent;
+		import mx.collections.XMLListCollection;
 		import mx.controls.Alert;
 		import air.update.events.UpdateEvent;
 		import flash.filesystem.File;
@@ -10,7 +14,10 @@
 		import mx.events.ListEvent;
 		import mx.events.ItemClickEvent;
 	
-	
+//		[Embed(source="config/initialgraphs.xml")]
+		[Bindable]
+		private var initialGraphs:XMLListCollection;
+		
 		[Bindable]
 		[Embed(source="assets/icons/world.png")]
 		public var world:Class;
@@ -32,13 +39,22 @@
 		private function init():void
 		{
 			//stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
-			updater.configurationFile= new File("app:/config/updaterConfig.xml");
+			//updater.configurationFile= new File("app:/config/updaterConfig.xml");
 			updater.updateURL = "http://www.gapminder.org/desktop/update.xml";
 			updater.addEventListener(UpdateEvent.INITIALIZED,updaterInitialized);
 			updater.addEventListener(ErrorEvent.ERROR,onError);
 			updater.initialize();
+			initialGraphsService.send();
 		}
 		
+		private function initialGraphsResultHandler(event:ResultEvent):void {
+			
+		}
+		
+		private function initialGraphsFaultHandler(event:FaultEvent):void {
+			Alert.show("Could not load information on initial graphs. Exiting application.");
+			Application.application.exit();
+		}
 		private function updaterInitialized(event:UpdateEvent):void {
 			currentVersion.text = event.target.currentVersion;
 		}
@@ -66,15 +82,10 @@
 	
 	]]>
 </mx:Script>
-<mx:VBox id="mainBox" width="100%" height="100%">
-	
-	<mx:TileList id="graphList" maxColumns="4" width ="700" itemClick="graphListItemClickHandler(event)">
-		<mx:dataProvider>
-			<mx:Array>
-				<mx:Object label="Gapminder World" icon="{world}" url="http://ss/"/>
-				<mx:Object label="Gapminder Four Big" icon="{fourbig}"/>
-			</mx:Array>
-		</mx:dataProvider>
+<mx:HTTPService id="initialGraphsService" url="app:/config/initalgraphs.xml" resultFormat="e4x" result="initialGraphsResultHandler(event)" fault="initialGraphsFaultHandler(event)"/>
+	<mx:VBox id="mainBox" width="100%" height="100%">
+
+	<mx:TileList id="graphList" maxColumns="4" itemClick="graphListItemClickHandler(event)" dataProvider="{initialGraphs}">
 	</mx:TileList>
 	<mx:HBox>
 		
