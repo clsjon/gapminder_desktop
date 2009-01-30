@@ -2,12 +2,12 @@
 <graphs>
 	<graph>
 		<label>Gapminder World</label>
-		<icon>app:/assets/icons/world.png</icon>
+		<icon>{world}</icon>
 		<url>app:/assets/graphs/world/index.html</url>
 	</graph>
 	<graph>
 		<label>Gapminder Four Big</label>
-		<icon>app:/assets/icons/fourbig.png</icon>
+		<icon>{fourbig}</icon>
 		<url>app:/assets/graphs/fourbig/index.html</url>
 	</graph>
 </graphs>

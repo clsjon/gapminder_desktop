@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:display="flash.display.*" 
 	xmlns:events="flash.events.*" layout="absolute" creationComplete="init()" width="700" height="500">
+	<mx:Style source="/assets/css/styles.css"/>
 <mx:Script>
 	<![CDATA[
 		import mx.core.Application;
@@ -38,25 +39,33 @@
 		
 		private function init():void
 		{
+			var initialGraphsLoader:URLLoader = new URLLoader();
+			var request:URLRequest = new URLRequest("app:/config/initialgraphs.xml");
 			//stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
 			//updater.configurationFile= new File("app:/config/updaterConfig.xml");
 			updater.updateURL = "http://www.gapminder.org/desktop/update.xml";
 			updater.addEventListener(UpdateEvent.INITIALIZED,updaterInitialized);
 			updater.addEventListener(ErrorEvent.ERROR,onError);
 			updater.initialize();
-			initialGraphsService.send();
+			initialGraphsLoader.addEventListener(Event.COMPLETE,initialGraphsResultHandler);
+			initialGraphsLoader.addEventListener(IOErrorEvent.IO_ERROR,initialGraphsFaultHandler);
+			initialGraphsLoader.load(request);
 		}
 		
-		private function initialGraphsResultHandler(event:ResultEvent):void {
+		private function initialGraphsResultHandler(event:Event):void {
+			var initXML:XML = new XML(event.target.data);
+			initialGraphs = new XMLListCollection(initXML..graph);
+			graphList.invalidateList();
 			
 		}
 		
-		private function initialGraphsFaultHandler(event:FaultEvent):void {
+		private function initialGraphsFaultHandler(event:IOErrorEvent):void {
 			Alert.show("Could not load information on initial graphs. Exiting application.");
 			Application.application.exit();
 		}
 		private function updaterInitialized(event:UpdateEvent):void {
 			currentVersion.text = event.target.currentVersion;
+			
 		}
 		
 		private function onError(event:ErrorEvent):void {
@@ -68,6 +77,8 @@
 		var graph:GraphBrowser;
 		graph = new GraphBrowser();
 		graph.open();
+		graph.title = event.itemRenderer.data.label;
+		graph.graphBrowser.location = event.itemRenderer.data.url;
 		graph.nativeWindow.x = 0;
 		graph.nativeWindow.y = 0;
 
@@ -82,16 +93,18 @@
 	
 	]]>
 </mx:Script>
-<mx:HTTPService id="initialGraphsService" url="app:/config/initalgraphs.xml" resultFormat="e4x" result="initialGraphsResultHandler(event)" fault="initialGraphsFaultHandler(event)"/>
 	<mx:VBox id="mainBox" width="100%" height="100%">
-
-	<mx:TileList id="graphList" maxColumns="4" itemClick="graphListItemClickHandler(event)" dataProvider="{initialGraphs}">
-	</mx:TileList>
+	<mx:Form>
+	<mx:FormItem label="Choose  graph to view:">
+		
+	<mx:List id="graphList" itemClick="graphListItemClickHandler(event)" dataProvider="{initialGraphs}">
+	</mx:List>
+	</mx:FormItem>	
+	</mx:Form>
 	<mx:HBox>
 		
 	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph"/>
 	<mx:Label id="currentVersion" text="Current version"/>
-	<mx:Label id="availableVersion" text="Available version"/>
 	<mx:Button id="checkNowButton" click="updater.checkNow();" label="Check for update"/>
 	</mx:HBox>
 	

@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" width="{Capabilities.screenResolutionX}" height="{Capabilities.screenResolutionY}">
-	<mx:HTML id="graphBrowser" location="app:/assets/graphs/world/index.html" width="100%" height="100%"/>
+<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" width="{Capabilities.screenResolutionX}" height="{Capabilities.screenResolutionY}" systemChrome="none">
+<mx:Script>
+	<![CDATA[
+		[Bindable]
+		[Embed(source="assets/icons/closebutton.png")]
+		public var closebutton:Class;
+
+	]]>
+</mx:Script>
+<mx:Canvas height="100%" width="100%">
+	<mx:HTML id="graphBrowser" location="" x="0" y="0" width="100%" height="100%" borderColor="#FFFFFF"/>
+	<mx:Image id="closeButton" x="0" y="0" click="this.close()" source="{closebutton}"/>
+	</mx:Canvas>
+	
 </mx:Window>
