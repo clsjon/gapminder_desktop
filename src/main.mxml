@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:display="flash.display.*" 
-	xmlns:events="flash.events.*" layout="absolute" creationComplete="init()" width="700" height="500">
+	xmlns:events="flash.events.*" layout="absolute" creationComplete="init()" width="710" height="400">
 	<mx:Style source="/assets/css/styles.css"/>
 <mx:Script>
 	<![CDATA[
@@ -77,11 +77,29 @@
 		private function button_clickHandler(event:MouseEvent):void 
 		{
 			var url:String = new String();
+			var label:String = new String();
 			switch(event.target.id) {
-				case "worldButton":
-				url="
-				
+				case worldButton:
+				url="app:/assets/graphs/world/index.html";
+				label="Gapminder World";
+				break;
+				case chinaButton:
+				url="app:/assets/graphs/china/index.html";
+				label="Gapminder China";
+				break;
+				case fourbigButton:
+				url="app:/assets/graphs/fourbig/index.html";
+				label="Gapminder China, India, Russia, US";
+				break;
 			}
+			trace(url);
+			var graph:GraphBrowser;
+			graph = new GraphBrowser();
+			graph.open();
+			graph.title = label;
+			graph.graphBrowser.location = url;
+			graph.nativeWindow.x = 0;
+			graph.nativeWindow.y = 0;
 		}
 		protected function openNew_clickHandler(event:MouseEvent):void
 		{
@@ -92,8 +110,9 @@
 	
 	]]>
 </mx:Script>
-	<mx:VBox id="mainBox">
-	<mx:HBox>
+	<mx:VBox id="mainBox" width="100%" height="100%">
+	<mx:Image source="/assets/icons/banner.png"/>
+	<mx:HBox width="100%" height="100%">
 		
 	<mx:Button
 		id="worldButton"
@@ -122,9 +141,9 @@
 	</mx:HBox>
 	<mx:HBox>
 		
-	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph"/>
-	<mx:Label id="currentVersion" text="Current version"/>
-	<mx:Button id="checkNowButton" click="updater.checkNow();" label="Check for update"/>
+	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph" visible="false"/>
+	<mx:Label id="currentVersion" text="Current version" visible="false"/>
+	<mx:Button id="checkNowButton" click="updater.checkNow();" label="Check for update" visible="true" skin="{null}"/>
 	</mx:HBox>
 	
 </mx:VBox>
