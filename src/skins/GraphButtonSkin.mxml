@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="400" height="300">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.controls.Button;
+			
+			
+			private function init():void 
+			{
+				var button:Button = (parent as Button);	
+			}
+		]]>
+	</mx:Script>
+<mx:states>
+	<mx:State name="up">
+		
+	</mx:State>	
+	<mx:State name="over">
+		<mx:SetProperty target="{this.parent}" name="icon" value="@Embed(source='/assets/icons/world_large_mouseover.png')"/>
+	</mx:State>
+	<mx:State name="down">
+		
+	</mx:State>
+</mx:states>
+</mx:Canvas>
+
+ 

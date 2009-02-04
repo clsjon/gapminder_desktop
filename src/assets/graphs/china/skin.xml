@@ -1,0 +1,755 @@
+<skin name="Gapminder World Skin">
+
+	<main
+	 
+		enableAnchorForNonSelected ="false"
+		
+		color="0xFFFF00"
+		light="0xFFFFFF"
+		dark="0x010625"
+	
+		tint="26"
+		brightness="50" 
+	 
+		color1 = "20"
+		color2 = "30"
+		color3 = "42"
+		color4 = "53"
+		color5 = "62"
+		color6 = "69"
+		color7 = "77"
+		color8 = "90"
+		color9 = "90"
+		color10 = "100"
+		
+		white="0xFFFFFF"
+		black="0x000000" 
+		darkGray="0x404040"
+	
+		backgroundColor="color1" 
+		chartBackgroundColor="0xFFFFFF"
+		iconColorLight="0xEEF7FF"
+		iconColorDark="color8"
+		selectionColor="color9"
+		
+		mainFont="Arial"
+		
+		coleredTextEnabled="color7#lessInk:15"
+		
+		coleredTextDisabled="color4"
+		coleredTextDisabled_lessInk="30"
+		
+	/>
+	<htmlMenus
+		linkColor = "color6"
+		notLinkColor = "color6"
+	/>		 
+	<termsOfUseWindow
+		closeCrossColor = "color6"
+		borderColor = "color6"
+		footerTextColor = "color6"
+		textColor = "black"
+		backgroundColor = "color1"
+	/>		 
+	<indicatorInfoButton
+		symbolColor = "color6"
+		markerColor = "color4"
+	/>		 
+	<chainLinkButton
+		faceColor = "color1"
+		outlineColor = "color6"
+		markerColor = "color4"
+	/>		 
+	<colorPicker
+		outer_darkshadow="color6" 
+		highlight3d="color1" 
+		outer_highlight="color1" 
+		outer_shadow="color2" 
+		face="color2" 
+		inner_shadow="color6" 
+		inner_highlight="color1" 
+		arrow="color6" 
+	/>
+	
+	<bubbleLabels
+		color="black" 
+		font="mainFont" 
+		bold="true"  
+	/>
+	
+  <dataSource 
+    fontSize="6"
+    fontColor="coleredTextEnabled"
+    tabelLinkColor="coleredTextEnabled"
+  />
+	<chartTitle
+		textColor= "coleredTextEnabled"
+	/>
+	
+	<axisValueDetectors
+		color="black" 
+		font="mainFont" 
+		bold="true"
+		size="11"  
+		frameFillColor ="white"
+		frameBorderColor = "color7"
+		frameCornerRadius = "2"
+	/>
+	
+	<background
+		fillCol="backgroundColor"
+		strokeCol="color6"
+		strokeWidth="0.2"
+		outerCorner="1"
+		innerCorner="1"
+	/>
+	
+	<framesWithTabs
+		fillCol="color2"
+		strokeCol="white"
+		strokeWidth="0.4"
+		outerCorner="corners:4,4,0,4"
+		innerCorner="corners:4,4,0,4"
+	/>
+	<frames
+		fillCol="color2"
+		strokeCol="white"
+		strokeWidth="0.4"
+		outerCorner="4"
+		innerCorner="4"
+	/>
+	 
+	<chartAndMapBorder
+		lineColor="color6"
+		lineWidth="0.5"
+	/>
+	
+	<framesInsideFrames
+		fillCol="color1"
+		strokeCol="color2"
+		strokeWidth="0.2"
+		outerCorner="4"
+		innerCorner="4"
+	/>
+	
+	<timeDisplayBehindBubbles
+       percentOfChartWidth= "90"
+       color="color2"
+       transparency="60"
+       centerx="0"
+       centery="-15"
+   />
+	
+	<mapModeTimeDisplay
+		color = "color2"
+		size="58"
+		align="left"
+		bold="true"
+		font ="mainFont"
+        x="0"
+        y="348" 
+   />
+   
+	<lists
+		fontSize = "10"
+		fontWeight="none"
+		font="mainFont"
+	/>
+	
+	<controls
+		coleredTextEnabled="color7"
+		coleredTextDisabled="coleredTextDisabled"
+		fontSize = "10"
+		fontWeight="bold"
+	/>
+	
+	<headings
+		color = "color6"
+		size="12"
+		bold="true"	
+	/>
+	
+	<help
+		color = "color6"
+		size="10"
+		bold="false"	
+	/>
+	
+	<interpolationInfo
+		backgColor="backgroundColor"
+		size="10"
+		bold="false"
+		color="coleredTextEnabled"
+	/>
+	
+	
+	<logo 
+		introLogoFileName="logo.jpg"
+	/>
+	
+	<loader
+		barColor="color"
+		barBackgColor="white"
+		barFrameColor="color3"
+		backgColor="backgroundColor"
+	/>
+	<loaderBarText
+		color="color4"	
+		size="14"
+	/>
+	
+	<checkBoxesInFrames
+		color="coleredTextEnabled"
+		disabledColor = "coleredTextDisabled"
+		fontsize="10"
+		fontWeight="bold"
+	/>
+	<checkbox
+		fillColor_falseUp="color1"
+		innerBorderColor_falseUp="color1"
+		outerBorderColor_falseUp="color6"
+		fillColor_falseOver="white"
+		innerBorderColor_falseOver="color2"
+		outerBorderColor_falseOver="color6"
+		fillColor_falseDown="color3"
+		innerBorderColor_falseDown="color1"
+		outerBorderColor_falseDown="color6"
+		fillColor_falseDisabled="color2"
+		innerBorderColor_falseDisabled="color1"
+		outerBorderColor_falseDisabled="color3"
+		
+		fillColor_trueUp="color3"
+		innerBorderColor_trueUp="color1"
+		outerBorderColor_trueUp="color6"
+		markColor_trueUp="color6"
+		fillColor_trueOver="color1"
+		innerBorderColor_trueOver="color2"
+		outerBorderColor_trueOver="color6"
+		markColor_trueOver="color6"
+		fillColor_trueDown="color3"
+		innerBorderColor_trueDown="color1"
+		outerBorderColor_trueDown="color6"
+		markColor_trueDown="color6"
+		fillColor_trueDisabled="color2"
+		innerBorderColor_trueDisabled="color1"
+		outerBorderColor_trueDisabled="color3"
+		markColor_trueDisabled="coleredTextDisabled"
+	/>
+	
+	<scrollbarArrow
+		color_up="color5"
+		fillColor_up="color1"
+		borderColor_up="color4"
+		innerBorderColor_up="color1"
+		
+		color_over="white"
+		fillColor_over="color7"
+		borderColor_over="color7"
+		innerBorderColor_over="color7"
+		
+		color_down="color7"
+		fillColor_down="color3"
+		borderColor_down="color4"
+		innerBorderColor_down="color3"
+		
+		color_disabled="color1"
+		fillColor_disabled="color3"
+		borderColor_disabled="color4"
+		innerBorderColor_disabled="color3"
+	/>
+	
+	<scrollbarThumb
+		gripDarkColor_up="color1"
+		gripLightColor_up="color5"
+		fillColor_up="color5"
+		borderColor_up="color5"
+		
+		gripDarkColor_over="white"
+		gripLightColor_over="white"
+		fillColor_over="color3"
+		borderColor_over="color5"
+		
+		gripDarkColor_down="white"
+		gripLightColor_down="white"
+		fillColor_down="color3"
+		borderColor_down="color5"
+		
+		gripDarkColor_disabled="color6"
+		gripLightColor_disabled="white"
+		fillColor_disabled="color3"
+		borderColor_disabled="color5"		
+	/>
+
+	<scrollbarTrack
+		fillColor="color1"	
+		leftBorderColor="color3"
+		rightBorderColor="color1"
+		
+		fillColor_disabled="color1"
+		leftBorderColor_disabled="color7"
+		rightBorderColor_disabled="color1"
+	/>	
+		
+	
+	<dropDownButtonOutsideFrames
+  
+		fontSize = "12"
+		bold = "true"
+		
+		textColorUp = "coleredTextEnabled" 
+		textColorRollOver= "coleredTextEnabled"  
+		textColorDown= "coleredTextEnabled"  
+		textColorDisabled = "coleredTextEnabled"
+		
+		outerBorderWidth = "0.6"
+		innerBorderWidth = "0"
+		
+		buttonCorner = "0"
+		arrowSquareCorner = "0"
+		 
+		up_fill="color1"
+		up_innerBorder="color1"
+		up_outerBorder="color4"
+		up_arrow="color5"
+		up_arrowBackg="color1"
+		
+		rollover_fill="white"
+		rollover_innerBorder="color1"
+		rollover_outerBorder="color7"
+		rollover_arrow="white"
+		rollover_arrowBackg="color7"
+		
+		down_fill="white"
+		down_innerBorder="color1"
+		down_outerBorder="color6"
+		down_arrow="white"
+		down_arrowBackg="color7"
+		
+		disabled_fill="color1"
+		disabled_innerBorder="color1"
+		disabled_outerBorder="color3"
+		disabled_arrow="color3"
+		disabled_arrowBackg="color1"	
+	/>
+	
+	<dropDownButtonInsideFrames
+		
+		fontSize = "10"
+		bold = "true"
+		
+		textColorUp = "coleredTextEnabled" 
+		textColorRollOver= "coleredTextEnabled"  
+		textColorDown= "coleredTextEnabled"  
+		textColorDisabled = "coleredTextEnabled"
+		
+		outerBorderWidth = "0.6"
+		innerBorderWidth = "0"
+		
+		buttonCorner = "0"
+		arrowSquareCorner = "0"
+		
+		up_fill="color1"
+		up_innerBorder="color1"
+		up_outerBorder="color4"
+		up_arrow="color5"
+		up_arrowBackg="color1"
+		
+		rollover_fill="white"
+		rollover_innerBorder="color1"
+		rollover_outerBorder="color7"
+		rollover_arrow="white"
+		rollover_arrowBackg="color7"
+		
+		down_fill="white"
+		down_innerBorder="color1"
+		down_outerBorder="color6"
+		down_arrow="white"
+		down_arrowBackg="color7"
+		
+		disabled_fill="color1"
+		disabled_innerBorder="color1"
+		disabled_outerBorder="color3"
+		disabled_arrow="color3"
+		disabled_arrowBackg="color1"	
+	/>
+	
+	<nonSelectedOpacitySlider
+		fromColor="color1"
+		toColor="color5"
+	/>
+	
+	<sliders
+		labelColor_enabled="coleredTextEnabled"
+		labelColor_disabled="coleredTextDisabled"
+		disableKnobAlpha="0"
+		disableTrackAlpha="30"
+	/>
+	
+	
+	
+	<colorRolloverText
+		color="coleredTextEnabled"
+		size="10"
+		bold="false"
+	/>
+	<coloredRegionalMap  
+		backgroundColor="color1"  
+	/>
+	<colorLegendList  
+		bgColor="color1"  
+		rollOverColor="white" 
+		textRollOverColor="selectionColor"
+		selectionColor="selectionColor"
+		textSelectedColor="black"
+		rollOver_yOffset="-24"
+		rollOver_xOffset="1"
+	/>
+	
+	<colorLegendCell
+		fontColor="coleredTextEnabled" 
+		fontSize="10"
+		backgroundColor="white"
+		cellWidth="120" 
+		
+	/>
+	
+	<colorByGroupsMenu 
+		borderColor="color7"
+		
+		backgroundColor="white"
+		textColor="darkGray"
+		
+		rollOverColor="color7"
+		textRollOverColor="white"
+		
+		selectionColor="selectionColor"
+		textSelectedColor="white"
+		
+	/>
+	
+	<indicatorMenu
+
+		borderStyle="solid"
+		borderColor="color7"
+		
+		backgroundColor="white"
+		color="coleredTextEnabled"
+		
+		rollOverColor="color7"
+		textRollOverColor="white"
+		
+		selectionColor="selectionColor"
+		textSelectedColor="white"
+		
+	/>
+	
+	<linLogPopUp
+		borderColor="color7"
+		
+		backgroundColor="white"
+		color="coleredTextEnabled"
+		
+		rollOverColor="color7"
+		textRollOverColor="white"
+		
+		selectionColor="selectionColor"
+		textSelectedColor="white" 
+	/>
+	
+	<countryList
+	  
+		fontSize="10"  
+		borderColor="color4"
+		rowHeight="16"
+		
+		alternatingRowColors1="color1"
+		alternatingRowColors2="color1"
+		backgroundColor = "color1"
+		backgroundDisabledColor = "color1"
+		
+		textColor="coleredTextEnabled"
+		disabledColor="coleredTextDisabled"
+		
+		rollOverColor="white"
+		textRollOverColor="color8"
+		
+		selectionColor="color1"
+		textSelectedColor="color7"
+	/>
+	
+	
+    <timeBar
+		
+		knobLight="color1"
+		knobDark="color8" 
+		horisontalLineColor="color4"
+		
+		limitLineWidth="3"
+		limitLineColor="color4"
+		limitLineAlpha="90"
+		limitLineYOffset="9"
+		
+		knobYOffset = "2" 
+		tickOffset="0"
+        labelOffset="-1" 
+       
+		labelFontColor="coleredTextEnabled"
+		labelFontSize="9"
+		
+		labeledTickLength="4"
+       labeledTickThickness="1"
+       labeledTickColor="color4"
+              tickLength="5"
+       tickThickness="1"
+       tickColor="color4" 
+
+	/>
+	
+	<xyAxis
+		
+		axisColor = "color6"
+		
+		labelFontColor="color7"
+		labelFontSize="10"
+		labeledLineThickness="0.5"
+		labeledLineColor="0xDDDDDD"
+		labeledTickLength="2"
+		labeledTickThickness="0.5"
+		labeledTickColor="color8"
+		
+		lineThickness="0.5"
+		tickThickness="0.5"
+		tickLength="2"
+		lineColor="0xEEEEEE"
+		tickColor="color7"
+	/>
+	
+	<colorByIndicatorAxis
+		
+		axisColor = "color6"
+		
+		labelFontColor="color7"
+		labelFontSize="10"
+		labeledLineThickness="0.5"
+		labeledLineColor="0xDDDDDD"
+		labeledTickLength="2"
+		labeledTickThickness="0.5"
+		labeledTickColor="color8"
+		
+		lineThickness="0.5"
+		tickThickness="0.5"
+		tickLength="2"
+		lineColor="0xEEEEEE"
+		tickColor="color7"
+	/>
+	
+	<speed
+		sliderLevelLineColor="color8"
+		knobLightDetails="color1"
+		knobDarkDetails="color8"
+		rolloverDarkDetails="color7"
+		
+	/>
+	
+	<zoom
+		iconColor_light="iconColorLight"
+		iconColor_dark="color7"
+	/>
+	<zoomPanelHideShow
+		light="iconColorLight"
+		dark="color6"
+		zoomedInLight="white"
+		zoomedInDark="color7"
+	/>
+	<zoomThumb
+		backgroundColor="color3"
+		backgroundBorderColor="color5"
+		backgroundAlpha="50"
+		thumbBackgroundColor="color1"
+		thumbBorderColor="white"
+		thumbAlpha="90"
+		availableBoxColor="color8"
+	/>
+	
+	<zoomArea
+		fillColor = "color3"
+		lineColor = "color4"
+	/>
+	
+	<sizeLegendText
+		color="coleredTextEnabled"
+		size="10"
+		bold="false"
+	/>
+	<sizeLegendCircles
+		fill="color1"
+		border="color6"
+		markedFill="white"
+		markedBorder="color8"
+	/>
+	
+	<mxStyles
+		themeColor="color6"
+		fontSize="10"
+		fontFamily="Arial"
+		color="coleredTextEnabled"
+		colorDisabled="coleredTextDisabled"
+		alternatingRowColors1="white"
+		alternatingRowColors2="white"
+		rollOverColor="white"
+		textRollOverColor="black"
+		selectionColor="white"
+		textSelectedColor="color8"
+		modalTransparency="50"
+		borderColor="color6"
+		borderStyle="solid"
+		rowHeight="16"
+		menuTextSelectedColor="black"
+		menuSelectionColor="selectionColor"
+		buttonRollOverColor="color3"
+	/>
+	
+	<buttonInsideFrameLabel
+		color="coleredTextEnabled"
+		disabledColor="coleredTextDisabled"
+		fontWeight="bold" 
+	/>
+	
+	<buttonInsideFrame
+		strokeW="0.8"
+		cr="1"
+		shadowStrength="30"
+		shadowStrengthDisabled="5"
+		invertShadowWhenDown="true"
+		falseup_border="color1"
+		falseup_fill="sv.frames.fillCol"
+		falsedown_border="color2"
+		falsedown_fill="color3"
+		falserollover_border="color3"
+		falserollover_fill="color1"
+		falsedisabled_border="color1"
+		falsedisabled_fill="sv.frames.fillCol"
+
+		truedown_border="color2"
+		truedown_fill="color3"
+		trueup_border="color1"
+		trueup_fill="sv.frames.fillCol"
+		truerollover_border="color6"
+		truerollover_fill="color6"
+		truedisabled_border="color1"
+		truedisabled_fill="sv.frames.fillCol"
+	/>
+	
+	<chartMapTabs
+		strokeW="0.2"
+		cr="5"
+		
+		shadowStrength="0"
+		shadowStrengthDisabled= "0"
+		invertShadowWhenDown="true"
+		
+		falseup_border="color5"
+		falseup_fill="color2"
+		falsedown_border="color6"
+		falsedown_fill="color3"
+		falserollover_border="color5"
+		falserollover_fill="color3"
+		falsedisabled_border="color1"
+		falsedisabled_fill="color3"
+
+		truedown_border="color5"
+		truedown_fill="white"
+		trueup_border="color5"
+		trueup_fill="white"
+		truerollover_border="color5"
+		truerollover_fill="white"
+		truedisabled_border="color1"
+		truedisabled_fill="color3"
+	/>
+	
+	<frameTabs 
+		
+		strokeW="sv.frames.strokeWidth"
+		cr="4"
+		shadowStrength="0"
+		shadowStrengthDisabled= "0"
+		invertShadowWhenDown="false"
+		falseup_border="color3"
+		falseup_fill="backgroundColor"
+		falsedown_border="color2"
+		falsedown_fill="color3"
+		falserollover_border="white"
+		falserollover_fill="color3"
+		falsedisabled_border="color1"
+		falsedisabled_fill="color3"
+
+		truedown_border="sv.frames.strokeCol"
+		truedown_fill="sv.frames.fillCol"
+		trueup_border="sv.frames.strokeCol"
+		trueup_fill="sv.frames.fillCol"
+		truerollover_border="sv.frames.strokeCol"
+		truerollover_fill="sv.frames.fillCol"
+		truedisabled_border="color1"
+		truedisabled_fill="color3"
+	/>
+	 
+	<playStopBtnLabel
+		color="coleredTextEnabled"
+		size="14"
+	/>
+		
+	<playStopBtn
+		
+		playIconColor="coleredTextEnabled"
+		pauseIconColor="coleredTextEnabled"
+		
+		strokeW="1"
+		cr="2"
+		invertShadowWhenDown="true"
+		
+		shadowStrength="0"
+		shadowStrengthDisabled= "5"
+		
+		falseup_border="white"
+		falseup_fill="color1"
+		
+		falsedown_border="color2"
+		falsedown_fill="color3"
+		
+		falserollover_border="color3"
+		falserollover_fill="white"
+		
+		falsedisabled_border="color1"
+		falsedisabled_fill="color3"
+
+		truedown_border="color2"
+		truedown_fill="color3"
+		trueup_border="color6"
+		trueup_fill="color1"
+		truerollover_border="color6"
+		truerollover_fill="color6"
+		truedisabled_border="color1"
+		truedisabled_fill="color3"
+	/>
+
+	
+	<dialogWindows
+		topFieldBackgroundColor="color7"
+		topFieldFontColor="white"
+	 	topFieldFontName="mainFont"
+	 	topFieldFontSize = "14"
+	 	buttonFieldFontColor = "color7"
+	 	buttonFieldRollOverColor = "color5"
+	 	buttonFieldFontSize = "14"
+	 	buttonFieldFontName = "mainFont"
+	 	contentFontColor = "Black"
+	 	contentFontSize="14"
+	  	contentFontName="mainFont"
+	/>
+	
+	<linkWindows
+	 	linkFont="mainFont"
+	 	linkFontSize="14"
+	 	linkFontColor="color8"   
+	/>
+</skin>

@@ -1,3 +1,4 @@
+bin-release/*
 bin-debug/*
 *.air
 *.swc

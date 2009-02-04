@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <update xmlns="http://ns.adobe.com/air/framework/update/description/1.0">
-	<version>0.5</version>
+	<version>0.6.1</version>
 	<url>http://www.gapminder.org/desktop/gapminderdesktop.air</url>
-	<description><![CDATA[Separates out configuration of initial graphs to separate XML file. Clean up the interface. 
+	<description><![CDATA[Switches to picture-based interface 
 		]]>
 </description>
 </update>

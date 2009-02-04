@@ -1,0 +1,434 @@
+<metadata>
+  <mapProperties imageFile="http://www.gapminder.org/world/maps/china_map.swf" timeDisplayX="0" timeDisplayY="0" scaleImage="false"/>
+  <collectionInfo>
+    <caption url="http://www.gapminder.org">Gapminder China (Beta 4.5)</caption>
+  </collectionInfo>
+  <indicators>
+    <i id="pp59adS3CHWecWxu_J-C2Gg" displayName="In-patients expenditure" originalName="Average expenditure of each in-patient."/>
+    <i id="pp59adS3CHWfrMWRTG57fHQ" displayName="Out-patients expenditure" originalName="Average expenditure of each out-patient."/>
+    <i id="pp59adS3CHWcytVQNXXOETQ" displayName="China historical population" originalName="China historical population"/>
+    <i id="pp59adS3CHWeQx3YO0ztPOw" displayName="China urban / rural difference" originalName="China urban / rural difference"/>
+    <i id="pp59adS3CHWeM2XP7TGtJIA" displayName="Electricity used per person (kWh)" originalName="Electricity used per person each year in kWh"/>
+    <i id="pp59adS3CHWeJT9APVSxOfg" displayName="Female Literacy rate" originalName="Female Literacy rate"/>
+    <i id="pp59adS3CHWfKPVb7dEexFA" displayName="Income per person (fixed PPP intl.$) - revised" originalName="Gross Domestic Product per capita by Purchasing Power Parities (in international dollars, fixed 2005 prices). The inflation and differences in the cost of living between countries has been taken into account."/>
+    <i id="pp59adS3CHWcnKrGGogsFVA" displayName="Hospital beds per 1000" originalName="Hospital beds available per 1000 people"/>
+    <i id="pp59adS3CHWcv45pk_e-oVw" displayName="Literacy rate" originalName="Literacy rate"/>
+    <i id="pp59adS3CHWeeYXNn5-YLDQ" displayName="Male Literacy rate" originalName="Male Literacy rate"/>
+    <i id="pp59adS3CHWdsZthpl9J9aw" displayName="In-patients number" originalName="Number of in-patients getting treatment in the hospitals during that year."/>
+    <i id="pp59adS3CHWfUGdoW4DeqMg" displayName="Rural MD per 1000" originalName="Number of medical doctors per 1000 people in rural areas"/>
+    <i id="pp59adS3CHWcTCZsAc3rNDg" displayName="Urban MD per 1000" originalName="Number of medical doctors per 1000 people in urban areas"/>
+    <i id="pp59adS3CHWcpk1vdyylIYQ" displayName="Out-patients number" originalName="Number of out-patients visiting the hospitals during that year."/>
+    <i id="pp59adS3CHWd8ABEL2axrVA" displayName="Health exams number" originalName="Number of people who take health exams in hospitals each year."/>
+    <i id="pp59adS3CHWdMrcnTuV9xXA" displayName="China provinces" originalName="Population of only China provinces"/>
+    <i id="pp59adS3CHWfpIxpjegY4bw" displayName="China &amp; World" originalName="Population of the world and China provinces"/>
+    <i id="pp59adS3CHWd1asERUdZ6Xg" displayName="Rural health expenditure (05 PPP US$)" originalName="Rural expenditure in medical and personal care deflated by CPI 2005, counted in PPP U.S.$"/>
+    <i id="pp59adS3CHWfDlqUyHVDvQQ" displayName="Rural education expenditure (05 PPP US$)" originalName="Rural expenditure on education deflated by CPI 2005, counted in PPP U.S.$"/>
+    <i id="pp59adS3CHWdnDJ7cC-fCZg" displayName="Rural personal income (05 PPP US$)" originalName="Rural income deflated by CPI 2005, counted in PPP U.S.$"/>
+    <i id="pp59adS3CHWfZMwdMLgucCw" displayName="Life expectancy at birth" originalName="The number of years a newborn could live at the current mortality rate."/>
+    <i id="pp59adS3CHWdzPUYoBGvoUQ" displayName="Under 5 Mortality Rate" originalName="The probability of a child born in a specific year or period dying before reaching the age of five, if subject to age-specific mortality rates of that period."/>
+    <i id="pp59adS3CHWeR0Ufcou95MQ" displayName="Infant Mortality Rate" originalName="The probability of a child born in a specific year or period dying before reaching the age of one, if subject to age-specific mortality rates of that period."/>
+    <i id="pp59adS3CHWeqH8nWrcn4UQ" displayName="Urban health expenditure (05 PPP US$)" originalName="Urban expenditure in medical and personal care deflated by CPI 2005, counted in PPP U.S.$"/>
+    <i id="pp59adS3CHWewr4WY9PqzRA" displayName="Urban education expenditure (05 PPP US$)" originalName="Urban expenditure on education deflated by CPI 2005, counted in PPP U.S.$"/>
+    <i id="pp59adS3CHWdl6PQSLpqCWw" displayName="Urban personal income (05 PPP US$)" originalName="Urban income deflated by CPI 2005, counted in PPP U.S.$"/>
+  </indicators>
+  <areas>
+    <a id="i37" n="Abkhazia"/>
+    <a id="i38" n="Afghanistan"/>
+    <a id="i39" n="Akrotiri and Dhekelia"/>
+    <a id="i40" n="Albania"/>
+    <a id="i41" n="Algeria"/>
+    <a id="i42" n="American Samoa"/>
+    <a id="i43" n="Andorra"/>
+    <a id="i44" n="Angola"/>
+    <a id="i45" n="Anguilla"/>
+    <a id="i0" n="Anhui"/>
+    <a id="i324" n="Anhui Rural"/>
+    <a id="i293" n="Anhui Urban"/>
+    <a id="i46" n="Antigua and Barbuda"/>
+    <a id="i47" n="Argentina"/>
+    <a id="i48" n="Armenia"/>
+    <a id="i49" n="Aruba"/>
+    <a id="i50" n="Australia"/>
+    <a id="i51" n="Austria"/>
+    <a id="i52" n="Azerbaijan"/>
+    <a id="i53" n="Bahamas"/>
+    <a id="i54" n="Bahrain"/>
+    <a id="i55" n="Bangladesh"/>
+    <a id="i56" n="Barbados"/>
+    <a id="i1" n="Beijing"/>
+    <a id="i325" n="Beijing Rural"/>
+    <a id="i294" n="Beijing Urban"/>
+    <a id="i57" n="Belarus"/>
+    <a id="i58" n="Belgium"/>
+    <a id="i59" n="Belize"/>
+    <a id="i60" n="Benin"/>
+    <a id="i61" n="Bermuda"/>
+    <a id="i62" n="Bhutan"/>
+    <a id="i63" n="Bolivia"/>
+    <a id="i64" n="Bosnia and Herzegovina"/>
+    <a id="i65" n="Botswana"/>
+    <a id="i66" n="Brazil"/>
+    <a id="i67" n="British Virgin Islands"/>
+    <a id="i68" n="Brunei"/>
+    <a id="i69" n="Bulgaria"/>
+    <a id="i70" n="Burkina Faso"/>
+    <a id="i71" n="Burundi"/>
+    <a id="i72" n="Cambodia"/>
+    <a id="i73" n="Cameroon"/>
+    <a id="i74" n="Canada"/>
+    <a id="i75" n="Cape Verde"/>
+    <a id="i76" n="Cayman Islands"/>
+    <a id="i77" n="Central African Rep."/>
+    <a id="i370" n="Centralsouth Region"/>
+    <a id="i78" n="Chad"/>
+    <a id="i79" n="Channel Islands"/>
+    <a id="i80" n="Chile"/>
+    <a id="i81" n="China"/>
+    <a id="i362" n="China Rural"/>
+    <a id="i363" n="China Urban"/>
+    <a id="i374" n="China mainland"/>
+    <a id="i2" n="Chongqing"/>
+    <a id="i326" n="Chongqing Rural"/>
+    <a id="i295" n="Chongqing Urban"/>
+    <a id="i82" n="Christmas Island"/>
+    <a id="i83" n="Cocos Island"/>
+    <a id="i84" n="Colombia"/>
+    <a id="i85" n="Comoros"/>
+    <a id="i86" n="Congo, Dem. Rep."/>
+    <a id="i87" n="Congo, Rep."/>
+    <a id="i88" n="Cook Islands"/>
+    <a id="i89" n="Costa Rica"/>
+    <a id="i90" n="Cote d&apos;Ivoire"/>
+    <a id="i91" n="Croatia"/>
+    <a id="i92" n="Cuba"/>
+    <a id="i93" n="Cyprus"/>
+    <a id="i94" n="Czech Rep."/>
+    <a id="i95" n="Czechoslovakia"/>
+    <a id="i96" n="Denmark"/>
+    <a id="i357" n="Distance Guizhou a"/>
+    <a id="i358" n="Distance Guizhou b"/>
+    <a id="i359" n="Distance Shanghai a"/>
+    <a id="i360" n="Distance Shanghai b"/>
+    <a id="i361" n="Distance Taiwan b"/>
+    <a id="i97" n="Djibouti"/>
+    <a id="i98" n="Dominica"/>
+    <a id="i99" n="Dominican Rep."/>
+    <a id="i100" n="East Germany"/>
+    <a id="i366" n="East Region"/>
+    <a id="i101" n="Ecuador"/>
+    <a id="i102" n="Egypt"/>
+    <a id="i103" n="El Salvador"/>
+    <a id="i104" n="Equatorial Guinea"/>
+    <a id="i105" n="Eritrea"/>
+    <a id="i106" n="Eritrea and Ethiopia"/>
+    <a id="i107" n="Estonia"/>
+    <a id="i108" n="Ethiopia"/>
+    <a id="i109" n="Faeroe Islands"/>
+    <a id="i110" n="Falkland Islands (Malvinas)"/>
+    <a id="i111" n="Fiji"/>
+    <a id="i112" n="Finland"/>
+    <a id="i113" n="France"/>
+    <a id="i114" n="French Guiana"/>
+    <a id="i115" n="French Polynesia"/>
+    <a id="i3" n="Fujian"/>
+    <a id="i327" n="Fujian Rural"/>
+    <a id="i296" n="Fujian Urban"/>
+    <a id="i116" n="Gabon"/>
+    <a id="i117" n="Gambia"/>
+    <a id="i4" n="Gansu"/>
+    <a id="i328" n="Gansu Rural"/>
+    <a id="i297" n="Gansu Urban"/>
+    <a id="i118" n="Georgia"/>
+    <a id="i119" n="Germany"/>
+    <a id="i120" n="Ghana"/>
+    <a id="i121" n="Gibraltar"/>
+    <a id="i122" n="Greece"/>
+    <a id="i123" n="Greenland"/>
+    <a id="i124" n="Grenada"/>
+    <a id="i125" n="Guadeloupe"/>
+    <a id="i126" n="Guam"/>
+    <a id="i5" n="Guangdong"/>
+    <a id="i329" n="Guangdong Rural"/>
+    <a id="i298" n="Guangdong Urban"/>
+    <a id="i6" n="Guangxi Zhuang A. R."/>
+    <a id="i330" n="Guangxi Zhuang AR Rural"/>
+    <a id="i299" n="Guangxi Zhuang AR Urban"/>
+    <a id="i127" n="Guatemala"/>
+    <a id="i128" n="Guernsey"/>
+    <a id="i129" n="Guinea"/>
+    <a id="i130" n="Guinea-Bissau"/>
+    <a id="i7" n="Guizhou"/>
+    <a id="i331" n="Guizhou Rural"/>
+    <a id="i300" n="Guizhou Urban"/>
+    <a id="i131" n="Guyana"/>
+    <a id="i8" n="Hainan"/>
+    <a id="i332" n="Hainan Rural"/>
+    <a id="i301" n="Hainan Urban"/>
+    <a id="i132" n="Haiti"/>
+    <a id="i9" n="Hebei"/>
+    <a id="i333" n="Hebei Rural"/>
+    <a id="i302" n="Hebei Urban"/>
+    <a id="i10" n="Heilongjiang"/>
+    <a id="i334" n="Heilongjiang Rural"/>
+    <a id="i303" n="Heilongjiang Urban"/>
+    <a id="i11" n="Henan"/>
+    <a id="i335" n="Henan Rural"/>
+    <a id="i304" n="Henan Urban"/>
+    <a id="i133" n="Holy See"/>
+    <a id="i134" n="Honduras"/>
+    <a id="i12" n="Hong Kong, China"/>
+    <a id="i13" n="Hubei"/>
+    <a id="i336" n="Hubei Rural"/>
+    <a id="i305" n="Hubei Urban"/>
+    <a id="i14" n="Hunan"/>
+    <a id="i337" n="Hunan Rural"/>
+    <a id="i306" n="Hunan Urban"/>
+    <a id="i135" n="Hungary"/>
+    <a id="i136" n="Iceland"/>
+    <a id="i137" n="India"/>
+    <a id="i138" n="Indonesia"/>
+    <a id="i20" n="Inner Mongolia A. R."/>
+    <a id="i139" n="Iran"/>
+    <a id="i140" n="Iraq"/>
+    <a id="i141" n="Ireland"/>
+    <a id="i142" n="Isle of Man"/>
+    <a id="i143" n="Israel"/>
+    <a id="i144" n="Italy"/>
+    <a id="i145" n="Jamaica"/>
+    <a id="i146" n="Japan"/>
+    <a id="i147" n="Jersey"/>
+    <a id="i15" n="Jiangsu"/>
+    <a id="i338" n="Jiangsu Rural"/>
+    <a id="i307" n="Jiangsu Urban"/>
+    <a id="i16" n="Jiangxi"/>
+    <a id="i339" n="Jiangxi Rural"/>
+    <a id="i308" n="Jiangxi Urban"/>
+    <a id="i17" n="Jilin"/>
+    <a id="i340" n="Jilin Rural"/>
+    <a id="i309" n="Jilin Urban"/>
+    <a id="i148" n="Jordan"/>
+    <a id="i149" n="Kazakhstan"/>
+    <a id="i150" n="Kenya"/>
+    <a id="i151" n="Kiribati"/>
+    <a id="i152" n="Korea, Dem. Rep."/>
+    <a id="i153" n="Korea, Rep."/>
+    <a id="i292" n="Korea, United"/>
+    <a id="i154" n="Kosovo"/>
+    <a id="i155" n="Kuwait"/>
+    <a id="i156" n="Kyrgyzstan"/>
+    <a id="i157" n="Laos"/>
+    <a id="i158" n="Latvia"/>
+    <a id="i159" n="Lebanon"/>
+    <a id="i160" n="Lesotho"/>
+    <a id="i18" n="Liaoning"/>
+    <a id="i341" n="Liaoning Rural"/>
+    <a id="i310" n="Liaoning Urban"/>
+    <a id="i161" n="Liberia"/>
+    <a id="i162" n="Libya"/>
+    <a id="i163" n="Liechtenstein"/>
+    <a id="i164" n="Lithuania"/>
+    <a id="i165" n="Luxembourg"/>
+    <a id="i19" n="Macao, China"/>
+    <a id="i166" n="Macedonia, FYR"/>
+    <a id="i167" n="Madagascar"/>
+    <a id="i168" n="Malawi"/>
+    <a id="i169" n="Malaysia"/>
+    <a id="i170" n="Maldives"/>
+    <a id="i171" n="Mali"/>
+    <a id="i172" n="Malta"/>
+    <a id="i173" n="Marshall Islands"/>
+    <a id="i174" n="Martinique"/>
+    <a id="i175" n="Mauritania"/>
+    <a id="i176" n="Mauritius"/>
+    <a id="i177" n="Mayotte"/>
+    <a id="i178" n="Mexico"/>
+    <a id="i179" n="Micronesia, Fed. Sts."/>
+    <a id="i180" n="Moldova"/>
+    <a id="i181" n="Monaco"/>
+    <a id="i182" n="Mongolia"/>
+    <a id="i183" n="Montenegro"/>
+    <a id="i184" n="Montserrat"/>
+    <a id="i185" n="Morocco"/>
+    <a id="i186" n="Mozambique"/>
+    <a id="i187" n="Myanmar"/>
+    <a id="i188" n="Namibia"/>
+    <a id="i189" n="Nauru"/>
+    <a id="i342" n="Neimenggu AR Rural"/>
+    <a id="i311" n="Neimenggu AR Urban"/>
+    <a id="i190" n="Nepal"/>
+    <a id="i191" n="Netherlands"/>
+    <a id="i192" n="Netherlands Antilles"/>
+    <a id="i193" n="New Caledonia"/>
+    <a id="i194" n="New Zealand"/>
+    <a id="i195" n="Ngorno-Karabakh"/>
+    <a id="i196" n="Nicaragua"/>
+    <a id="i197" n="Niger"/>
+    <a id="i198" n="Nigeria"/>
+    <a id="i21" n="Ningxia Hui A. R."/>
+    <a id="i343" n="Ningxia Hui AR Rural"/>
+    <a id="i312" n="Ningxia Hui AR Urban"/>
+    <a id="i199" n="Niue"/>
+    <a id="i200" n="Norfolk Island"/>
+    <a id="i367" n="North Region"/>
+    <a id="i371" n="Northeast Region"/>
+    <a id="i201" n="Northern Cyprus"/>
+    <a id="i202" n="Northern Mariana Islands"/>
+    <a id="i369" n="Northwest Region"/>
+    <a id="i203" n="Norway"/>
+    <a id="i204" n="Oman"/>
+    <a id="i365" n="Other"/>
+    <a id="i373" n="Others"/>
+    <a id="i205" n="Pakistan"/>
+    <a id="i206" n="Palau"/>
+    <a id="i207" n="Panama"/>
+    <a id="i208" n="Papua New Guinea"/>
+    <a id="i209" n="Paraguay"/>
+    <a id="i210" n="Peru"/>
+    <a id="i211" n="Philippines"/>
+    <a id="i212" n="Pitcairn"/>
+    <a id="i213" n="Poland"/>
+    <a id="i214" n="Portugal"/>
+    <a id="i215" n="Puerto Rico"/>
+    <a id="i216" n="Qatar"/>
+    <a id="i22" n="Qinghai"/>
+    <a id="i344" n="Qinghai Rural"/>
+    <a id="i313" n="Qinghai Urban"/>
+    <a id="i34" n="R1 - U1"/>
+    <a id="i35" n="R1 - U3"/>
+    <a id="i36" n="R1 - U5"/>
+    <a id="i372" n="Rest of the world"/>
+    <a id="i217" n="Reunion"/>
+    <a id="i218" n="Romania"/>
+    <a id="i219" n="Russia"/>
+    <a id="i220" n="Rwanda"/>
+    <a id="i221" n="Saint Barthélemy"/>
+    <a id="i222" n="Saint Helena"/>
+    <a id="i223" n="Saint Kitts and Nevis"/>
+    <a id="i224" n="Saint Lucia"/>
+    <a id="i225" n="Saint Martin"/>
+    <a id="i226" n="Saint Vincent and the Grenadines"/>
+    <a id="i227" n="Saint-Pierre-et-Miquelon"/>
+    <a id="i228" n="Samoa"/>
+    <a id="i229" n="San Marino"/>
+    <a id="i230" n="Sao Tome and Principe"/>
+    <a id="i231" n="Saudi Arabia"/>
+    <a id="i232" n="Senegal"/>
+    <a id="i233" n="Serbia"/>
+    <a id="i234" n="Serbia and Montenegro"/>
+    <a id="i235" n="Serbia excluding Kosovo"/>
+    <a id="i236" n="Seychelles"/>
+    <a id="i26" n="Shaanxi"/>
+    <a id="i23" n="Shandong"/>
+    <a id="i345" n="Shandong Rural"/>
+    <a id="i314" n="Shandong Urban"/>
+    <a id="i24" n="Shanghai"/>
+    <a id="i346" n="Shanghai Rural"/>
+    <a id="i315" n="Shanghai Urban"/>
+    <a id="i25" n="Shanxi"/>
+    <a id="i347" n="Shanxi (Jin) Rural"/>
+    <a id="i316" n="Shanxi (Jin) Urban"/>
+    <a id="i348" n="Shanxi (Qin) Rural"/>
+    <a id="i317" n="Shanxi (Qin) Urban"/>
+    <a id="i27" n="Sichuan"/>
+    <a id="i349" n="Sichuan Rural"/>
+    <a id="i318" n="Sichuan Urban"/>
+    <a id="i237" n="Sierra Leone"/>
+    <a id="i238" n="Singapore"/>
+    <a id="i239" n="Slovak Republic"/>
+    <a id="i240" n="Slovenia"/>
+    <a id="i241" n="Solomon Islands"/>
+    <a id="i242" n="Somalia"/>
+    <a id="i243" n="Somaliland"/>
+    <a id="i244" n="South Africa"/>
+    <a id="i245" n="South Ossetia"/>
+    <a id="i368" n="Southwest Region"/>
+    <a id="i246" n="Spain"/>
+    <a id="i247" n="Sri Lanka"/>
+    <a id="i248" n="Sudan"/>
+    <a id="i249" n="Suriname"/>
+    <a id="i250" n="Svalbard"/>
+    <a id="i251" n="Swaziland"/>
+    <a id="i252" n="Sweden"/>
+    <a id="i253" n="Switzerland"/>
+    <a id="i254" n="Syria"/>
+    <a id="i28" n="TAIWAN*"/>
+    <a id="i356" n="Taiwan Rural"/>
+    <a id="i355" n="Taiwan Urban"/>
+    <a id="i255" n="Tajikistan"/>
+    <a id="i256" n="Tanzania"/>
+    <a id="i257" n="Thailand"/>
+    <a id="i29" n="Tianjin"/>
+    <a id="i350" n="Tianjin Rural"/>
+    <a id="i319" n="Tianjin Urban"/>
+    <a id="i31" n="Tibet A. R."/>
+    <a id="i258" n="Timor-Leste"/>
+    <a id="i259" n="Togo"/>
+    <a id="i260" n="Tokelau"/>
+    <a id="i261" n="Tonga"/>
+    <a id="i262" n="Transnistria"/>
+    <a id="i263" n="Trinidad and Tobago"/>
+    <a id="i264" n="Tunisia"/>
+    <a id="i265" n="Turkey"/>
+    <a id="i266" n="Turkmenistan"/>
+    <a id="i267" n="Turks and Caicos Islands"/>
+    <a id="i268" n="Tuvalu"/>
+    <a id="i275" n="USSR"/>
+    <a id="i269" n="Uganda"/>
+    <a id="i270" n="Ukraine"/>
+    <a id="i271" n="United Arab Emirates"/>
+    <a id="i272" n="United Kingdom"/>
+    <a id="i273" n="United States"/>
+    <a id="i274" n="Uruguay"/>
+    <a id="i276" n="Uzbekistan"/>
+    <a id="i278" n="Vanuatu"/>
+    <a id="i279" n="Venezuela"/>
+    <a id="i283" n="Vietnam"/>
+    <a id="i284" n="Virgin Islands (U.S.)"/>
+    <a id="i277" n="Wallis et Futuna"/>
+    <a id="i280" n="West Bank and Gaza"/>
+    <a id="i281" n="West Germany"/>
+    <a id="i282" n="Western Sahara"/>
+    <a id="i364" n="World"/>
+    <a id="i30" n="Xinjiang Uyghur A. R."/>
+    <a id="i351" n="Xinjiang Wei AR Rural"/>
+    <a id="i320" n="Xinjiang Wei AR Urban"/>
+    <a id="i352" n="Xizang AR Rural"/>
+    <a id="i321" n="Xizang AR Urban"/>
+    <a id="i285" n="Yemen Arab Republic (Former)"/>
+    <a id="i286" n="Yemen Democratic (Former)"/>
+    <a id="i287" n="Yemen, Rep."/>
+    <a id="i288" n="Yugoslavia"/>
+    <a id="i32" n="Yunnan"/>
+    <a id="i353" n="Yunnan Rural"/>
+    <a id="i322" n="Yunnan Urban"/>
+    <a id="i289" n="Zambia"/>
+    <a id="i33" n="Zhejiang"/>
+    <a id="i354" n="Zhejiang Rural"/>
+    <a id="i323" n="Zhejiang Urban"/>
+    <a id="i290" n="Zimbabwe"/>
+    <a id="i291" n="Åland"/>
+  </areas>
+  <areaCategorization id="CATID0" n="China provinces" sourceName="Wikipedia" providerUrl="www.wikipedia.org" dataCollectionUrl="http://spreadsheets.google.com/pub?key=pp59adS3CHWeLTlvdxEPMHg&amp;hl=en">
+    <c id="i364" areas="i44,i60,i65,i70,i71,i73,i75,i78,i85,i86,i87,i90,i104,i105,i106,i108,i116,i120,i129,i130,i150,i160,i161,i167,i168,i171,i175,i176,i177,i186,i188,i197,i198,i217,i220,i222,i230,i232,i236,i237,i242,i243,i244,i248,i251,i256,i259,i269,i289,i290,i38,i55,i62,i137,i170,i190,i205,i247,i41,i54,i97,i140,i143,i148,i155,i159,i162,i172,i185,i204,i216,i231,i264,i271,i280,i287,i285,i286,i45,i46,i47,i49,i56,i59,i61,i63,i66,i67,i74,i76,i80,i84,i89,i92,i98,i101,i103,i114,i124,i125,i127,i131,i132,i134,i145,i174,i178,i184,i192,i196,i207,i209,i210,i215,i221,i225,i227,i249,i263,i267,i273,i274,i37,i39,i40,i43,i48,i51,i52,i57,i58,i64,i69,i79,i91,i93,i95,i96,i100,i107,i109,i112,i113,i118,i119,i121,i122,i123,i128,i133,i135,i136,i141,i142,i144,i147,i149,i154,i158,i163,i164,i165,i166,i180,i181,i183,i191,i195,i201,i203,i213,i214,i218,i229,i233,i234,i235,i239,i240,i245,i246,i250,i252,i253,i255,i262,i265,i266,i270,i272,i275,i276,i288,i291,i42,i50,i68,i72,i81,i82,i83,i111,i115,i126,i138,i146,i151,i152,i153,i169,i173,i179,i182,i187,i189,i193,i194,i199,i200,i202,i206,i208,i211,i212,i228,i238,i241,i257,i258,i260,i261,i268,i277,i281,i282,i283,i284,i278,i292"/>
+    <c id="i365" areas="i28,i19,i12"/>
+    <c id="i366" areas="i0,i3,i15,i16,i23,i24,i33"/>
+    <c id="i367" areas="i1,i9,i20,i25,i29"/>
+    <c id="i368" areas="i2,i7,i27,i31,i32"/>
+    <c id="i369" areas="i4,i21,i22,i26,i30"/>
+    <c id="i370" areas="i5,i6,i8,i11,i13,i14"/>
+    <c id="i371" areas="i10,i17,i18"/>
+  </areaCategorization>
+  <areaCategorization id="CATID1" n="China &amp; World" sourceName="Wikipedia" providerUrl="www.wikipedia.org" dataCollectionUrl="http://spreadsheets.google.com/pub?key=pp59adS3CHWeLTlvdxEPMHg&amp;hl=en">
+    <c id="i372" areas="i44,i60,i65,i70,i71,i73,i75,i78,i85,i86,i87,i90,i104,i105,i106,i108,i116,i120,i129,i130,i150,i160,i161,i167,i168,i171,i175,i176,i177,i186,i188,i197,i198,i217,i220,i222,i230,i232,i236,i237,i242,i243,i244,i248,i251,i256,i259,i269,i289,i290,i38,i55,i62,i137,i170,i190,i205,i247,i41,i54,i97,i140,i143,i148,i155,i159,i162,i172,i185,i204,i216,i231,i264,i271,i280,i287,i285,i286,i45,i46,i47,i49,i56,i59,i61,i63,i66,i67,i74,i76,i80,i84,i89,i92,i98,i101,i103,i114,i124,i125,i127,i131,i132,i134,i145,i174,i178,i184,i192,i196,i207,i209,i210,i215,i221,i225,i227,i249,i263,i267,i273,i274,i37,i39,i40,i43,i48,i51,i52,i57,i58,i64,i69,i79,i91,i93,i95,i96,i100,i107,i109,i112,i113,i118,i119,i121,i122,i123,i128,i133,i135,i136,i141,i142,i144,i147,i149,i154,i158,i163,i164,i165,i166,i180,i181,i183,i191,i195,i201,i203,i213,i214,i218,i229,i233,i234,i235,i239,i240,i245,i246,i250,i252,i253,i255,i262,i265,i266,i270,i272,i275,i276,i288,i291,i42,i50,i68,i72,i81,i82,i83,i111,i115,i126,i138,i146,i151,i152,i153,i169,i173,i179,i182,i187,i189,i193,i194,i199,i200,i202,i206,i208,i211,i212,i228,i238,i241,i257,i258,i260,i261,i268,i277,i281,i282,i283,i284,i278,i292"/>
+    <c id="i373" areas="i28,i19,i12"/>
+    <c id="i374" areas="i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i13,i14,i15,i16,i17,i18,i20,i21,i22,i23,i24,i25,i26,i27,i29,i30,i31,i32,i33"/>
+  </areaCategorization>
+  <indicatorCategorization indicators="pp59adS3CHWdzPUYoBGvoUQ,pp59adS3CHWeR0Ufcou95MQ,pp59adS3CHWfKPVb7dEexFA,pp59adS3CHWfZMwdMLgucCw">
+    <c n="China provinces" id="China provinces" indicators="pp59adS3CHWeM2XP7TGtJIA">
+      <c n="Health" id="Health" indicators="pp59adS3CHWcnKrGGogsFVA,pp59adS3CHWd8ABEL2axrVA,pp59adS3CHWdsZthpl9J9aw,pp59adS3CHWcpk1vdyylIYQ,pp59adS3CHWecWxu_J-C2Gg,pp59adS3CHWfrMWRTG57fHQ"/>
+      <c n="Education" id="Education" indicators="pp59adS3CHWcv45pk_e-oVw,pp59adS3CHWeJT9APVSxOfg,pp59adS3CHWeeYXNn5-YLDQ"/>
+      <c n="Urban &amp; Rural" id="Urban &amp; Rural" indicators="pp59adS3CHWeqH8nWrcn4UQ,pp59adS3CHWd1asERUdZ6Xg,pp59adS3CHWewr4WY9PqzRA,pp59adS3CHWfDlqUyHVDvQQ,pp59adS3CHWdl6PQSLpqCWw,pp59adS3CHWdnDJ7cC-fCZg,pp59adS3CHWcTCZsAc3rNDg,pp59adS3CHWfUGdoW4DeqMg"/>
+    </c>
+    <c n="Population" id="Population" indicators="pp59adS3CHWfpIxpjegY4bw,pp59adS3CHWdMrcnTuV9xXA,pp59adS3CHWcytVQNXXOETQ,pp59adS3CHWeQx3YO0ztPOw"/>
+  </indicatorCategorization>
+</metadata>
