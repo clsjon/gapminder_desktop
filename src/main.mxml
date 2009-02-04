@@ -4,6 +4,7 @@
 	<mx:Style source="/assets/css/styles.css"/>
 <mx:Script>
 	<![CDATA[
+		import mx.controls.Image;
 		import mx.core.Application;
 		import mx.rpc.events.FaultEvent;
 		import mx.rpc.events.ResultEvent;
@@ -55,7 +56,7 @@
 		private function initialGraphsResultHandler(event:Event):void {
 			var initXML:XML = new XML(event.target.data);
 			initialGraphs = new XMLListCollection(initXML..graph);
-			graphList.invalidateList();
+			//graphList.invalidateList();
 			
 		}
 		
@@ -72,18 +73,16 @@
     		Alert.show(event.toString());
 		}
 
-	private function graphListItemClickHandler(event:ListEvent):void
-	{
-		var graph:GraphBrowser;
-		graph = new GraphBrowser();
-		graph.open();
-		graph.title = event.itemRenderer.data.label;
-		graph.graphBrowser.location = event.itemRenderer.data.url;
-		graph.nativeWindow.x = 0;
-		graph.nativeWindow.y = 0;
-
-	}
-
+		
+		private function button_clickHandler(event:MouseEvent):void 
+		{
+			var url:String = new String();
+			switch(event.target.id) {
+				case "worldButton":
+				url="
+				
+			}
+		}
 		protected function openNew_clickHandler(event:MouseEvent):void
 		{
 			var uploadWindow:UploadGraphFromUrl;
@@ -93,14 +92,34 @@
 	
 	]]>
 </mx:Script>
-	<mx:VBox id="mainBox" width="100%" height="100%">
-	<mx:Form>
-	<mx:FormItem label="Choose  graph to view:">
+	<mx:VBox id="mainBox">
+	<mx:HBox>
 		
-	<mx:List id="graphList" itemClick="graphListItemClickHandler(event)" dataProvider="{initialGraphs}">
-	</mx:List>
-	</mx:FormItem>	
-	</mx:Form>
+	<mx:Button
+		id="worldButton"
+		upSkin="@Embed(source='/assets/icons/world.png')"
+		overSkin="@Embed(source='/assets/icons/world_over.png')"
+		downSkin="@Embed(source='/assets/icons/world.png')"	
+		click="button_clickHandler(event)"
+	/>
+	<mx:VBox>
+		<mx:Button
+		id="fourbigButton"
+		upSkin="@Embed(source='/assets/icons/fourbig.png')"
+		overSkin="@Embed(source='/assets/icons/fourbig_over.png')"
+		downSkin="@Embed(source='/assets/icons/fourbig.png')"
+		click="button_clickHandler(event)"	
+	/>
+	<mx:Button
+		id="chinaButton"
+		upSkin="@Embed(source='/assets/icons/china.png')"
+		overSkin="@Embed(source='/assets/icons/china_over.png')"
+		downSkin="@Embed(source='/assets/icons/china.png')"
+		click="button_clickHandler(event)"	
+	/>
+		
+	</mx:VBox>
+	</mx:HBox>
 	<mx:HBox>
 		
 	<mx:Button id="openNew" click="openNew_clickHandler(event)" label="Add new graph"/>

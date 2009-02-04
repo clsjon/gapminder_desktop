@@ -1,20 +1,21 @@
 @font-face {
-  src: url("assets/fonts/MyriadWebPro.ttf");
+  src: url("/assets/fonts/MyriadWebPro.ttf");
   fontFamily: MyriadWebPro;
   fontStyle: normal;
   fontWeight: normal;
 }
 
 @font-face {
-  src: url("assets/fonts/MyriadWebPro-Bold.ttf");
+  src: url("/assets/fonts/MyriadWebPro-Bold.ttf");
   fontFamily: MyriadWebPro;
   fontStyle: normal;
   fontWeight: bold;
 }
 
-Application {
+WindowedApplication {
   fontFamily: MyriadWebPro;
   fontSize: 12;
+  backgroundColor: #FFFFFF;
 }
 
 
