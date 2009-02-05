@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" width="{Capabilities.screenResolutionX}" height="{Capabilities.screenResolutionY}" systemChrome="none">
+<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" width="{Capabilities.screenResolutionX}" height="{Capabilities.screenResolutionY}" backgroundColor="#CEDCE3" systemChrome="none">
 <mx:Script>
 	<![CDATA[
 		[Bindable]
 		[Embed(source="assets/icons/closebutton.png")]
 		public var closebutton:Class;
 
+		private function fullScreenButtonHandler(event:MouseEvent):void
+		{
+			this.stage.displayState=StageDisplayState.FULL_SCREEN_INTERACTIVE;
+			this.graphBrowser.invalidateDisplayList();
+		}
 	]]>
 </mx:Script>
+<mx:HBox>
+		<mx:Image id="closeButton" click="this.close()" source="@Embed(source='/assets/icons/closebutton.png')"/>
+		<mx:Image id="fullScreenButton" click="fullScreenButtonHandler(event)" source="@Embed(source='/assets/icons/fullscreen.png')"/>
+</mx:HBox>
 <mx:Canvas height="100%" width="100%">
+	
 	<mx:HTML id="graphBrowser" location="" x="0" y="0" width="100%" height="100%" borderColor="#FFFFFF"/>
-	<mx:Image id="closeButton" x="0" y="0" click="this.close()" source="{closebutton}"/>
-	</mx:Canvas>
+	
+	
+</mx:Canvas>
 	
 </mx:Window>
